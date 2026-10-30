@@ -1,0 +1,53 @@
+# Čitanje drumskog saobraćaja na 5 minuta.
+# Glavni okidač: cron-job.org poziva workflow_dispatch na svakih 5 min (vidi README → „Cron-job.org“).
+# Rezerva: GitHub schedule na 30 min (GitHub ga ume zakasniti ili preskočiti) — isti interval se nikad ne čuva dvaput.
+name: citaj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13,43 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: citaj
+  cancel-in-progress: false
+
+jobs:
+  citaj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # samo standardna biblioteka: bez setup-python i pip install (brže, oko 15 s po pokretanju)
+      - name: Čitanje (novi 5-minutni intervali)
+        id: citanje
+        continue-on-error: true
+        run: python3 -m prikupljanje.citaj
+
+      - name: Satni zbirovi za juče (samo posle ponoći, ako fale)
+        continue-on-error: true
+        run: python3 -m prikupljanje.sati
+
+      - name: Commit i push
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add podaci
+          if git diff --cached --quiet; then echo "nema promena"; exit 0; fi
+          git commit -q -m "podaci: $(TZ=Europe/Belgrade date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3 4; do
+            git pull --rebase -q && git push -q && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
+
+      - name: Neuspelo čitanje = crveno pokretanje (vidi podaci/greske.log)
+        if: steps.citanje.outcome == 'failure'
+        run: exit 1

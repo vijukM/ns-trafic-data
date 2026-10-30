@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:crs="http://www.mikrobit.si/schemas/crs" xmlns:counters="http://www.mikrobit.si/schemas/counters/v1">
+<title>Automatski brojači saobraćaja</title>
+<subtitle>Trenutno stanje saobraćaja</subtitle>
+<link href="http://www.mikrobit.si"/>
+<updated>2026-10-09T10:53:10Z</updated>
+<author>
+<name>Mikrobit senzorika d.o.o.</name>
+<email>info@mikrobit.si</email>
+</author>
+<id>09.10.2026 12:53:10</id>
+<entry>
+<title>, Vojvodjanska : Cara Lazara - M. Gorkog (u oba smera)(b)</title>
+<id>0015-14</id>
+<updated>2026-10-09T10:52:49Z</updated>
+<summary>, Vojvodjanska : Cara Lazara - M. Gorkog (u oba smera)(b), today 472 bicycles, yesterday 1314 bicycles, this year 346453 bicycles</summary>
+<georss:point>45,246414 19,840201</georss:point>
+<counters:location>0015</counters:location>
+<counters:locationDesc>Vojvodjanska</counters:locationDesc>
+<counters:locationID>15NSaPS Vojvodjanska</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Cara Lazara - M. Gorkog (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,246414</counters:geoX>
+<counters:geoY>19,840201</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:49</counters:time>
+<counters:volume_today>472</counters:volume_today>
+<counters:volume_yesterday>1314</counters:volume_yesterday>
+<counters:volumethisyear>346453</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Vojvodjanska : M. Gorkog - Cara Lazara (u oba smera)(b)</title>
+<id>0015-24</id>
+<updated>2026-10-09T10:52:49Z</updated>
+<summary>, Vojvodjanska : M. Gorkog - Cara Lazara (u oba smera)(b), today 216 bicycles, yesterday 1033 bicycles, this year 279310 bicycles</summary>
+<georss:point>45,246330 19,839930</georss:point>
+<counters:location>0015</counters:location>
+<counters:locationDesc>Vojvodjanska</counters:locationDesc>
+<counters:locationID>15NSbPS Vojvodjanska</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>M. Gorkog - Cara Lazara (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,246330</counters:geoX>
+<counters:geoY>19,839930</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:49</counters:time>
+<counters:volume_today>216</counters:volume_today>
+<counters:volume_yesterday>1033</counters:volume_yesterday>
+<counters:volumethisyear>279310</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, S Jovanovica : Futoski put-V. Stepe (u oba smera)(b)</title>
+<id>0020-23</id>
+<updated>2026-10-09T10:53:10Z</updated>
+<summary>, S Jovanovica : Futoski put-V. Stepe (u oba smera)(b), today 176 bicycles, yesterday 614 bicycles, this year 117602 bicycles</summary>
+<georss:point>45,251322 19,805641</georss:point>
+<counters:location>0020</counters:location>
+<counters:locationDesc>S Jovanovica</counters:locationDesc>
+<counters:locationID>20NSb S. Jovanovica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>23</counters:direction>
+<counters:directionDesc>Futoski put-V. Stepe (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,251322</counters:geoX>
+<counters:geoY>19,805641</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:10</counters:time>
+<counters:volume_today>176</counters:volume_today>
+<counters:volume_yesterday>614</counters:volume_yesterday>
+<counters:volumethisyear>117602</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, S Jovanovica : V. Stepe-Futoski put (u oba smera)(b)</title>
+<id>0020-13</id>
+<updated>2026-10-09T10:52:50Z</updated>
+<summary>, S Jovanovica : V. Stepe-Futoski put (u oba smera)(b), today 90 bicycles, yesterday 380 bicycles, this year 117591 bicycles</summary>
+<georss:point>45,251250 19,805401</georss:point>
+<counters:location>0020</counters:location>
+<counters:locationDesc>S Jovanovica</counters:locationDesc>
+<counters:locationID>20NSa S.Jovanovica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>13</counters:direction>
+<counters:directionDesc>V. Stepe-Futoski put (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,251250</counters:geoX>
+<counters:geoY>19,805401</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:50</counters:time>
+<counters:volume_today>90</counters:volume_today>
+<counters:volume_yesterday>380</counters:volume_yesterday>
+<counters:volumethisyear>117591</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. kralja Petra I : Kisacka-Kraljevica Marka (u oba smera)(b)</title>
+<id>0022-23</id>
+<updated>2026-10-09T10:52:57Z</updated>
+<summary>, Bul. kralja Petra I : Kisacka-Kraljevica Marka (u oba smera)(b), today 166 bicycles, yesterday 625 bicycles, this year 107238 bicycles</summary>
+<georss:point>45,262045 19,836839</georss:point>
+<counters:location>0022</counters:location>
+<counters:locationDesc>Bul. kralja Petra I</counters:locationDesc>
+<counters:locationID>22NSb Bul. kralja Petra I</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>23</counters:direction>
+<counters:directionDesc>Kisacka-Kraljevica Marka (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,262045</counters:geoX>
+<counters:geoY>19,836839</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:57</counters:time>
+<counters:volume_today>166</counters:volume_today>
+<counters:volume_yesterday>625</counters:volume_yesterday>
+<counters:volumethisyear>107238</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. kralja Petra I : Kraljevica Marka-Kisacka (u oba smera)(b)</title>
+<id>0022-13</id>
+<updated>2026-10-09T10:52:56Z</updated>
+<summary>, Bul. kralja Petra I : Kraljevica Marka-Kisacka (u oba smera)(b), today 193 bicycles, yesterday 640 bicycles, this year 94606 bicycles</summary>
+<georss:point>45,261829 19,836955</georss:point>
+<counters:location>0022</counters:location>
+<counters:locationDesc>Bul. kralja Petra I</counters:locationDesc>
+<counters:locationID>22NSa Bul. kralja Petra I</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>13</counters:direction>
+<counters:directionDesc>Kraljevica Marka-Kisacka (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,261829</counters:geoX>
+<counters:geoY>19,836955</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:56</counters:time>
+<counters:volume_today>193</counters:volume_today>
+<counters:volume_yesterday>640</counters:volume_yesterday>
+<counters:volumethisyear>94606</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. cara Lazara : Cara Dusana-Balzakova (u oba smera)(b)</title>
+<id>0023-14</id>
+<updated>2026-10-09T10:52:53Z</updated>
+<summary>, Bul. cara Lazara : Cara Dusana-Balzakova (u oba smera)(b), today 617 bicycles, yesterday 2268 bicycles, this year 448071 bicycles</summary>
+<georss:point>45,240293 19,827405</georss:point>
+<counters:location>0023</counters:location>
+<counters:locationDesc>Bul. cara Lazara</counters:locationDesc>
+<counters:locationID>23NSa Bul. cara Lazara</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Cara Dusana-Balzakova (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240293</counters:geoX>
+<counters:geoY>19,827405</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:53</counters:time>
+<counters:volume_today>617</counters:volume_today>
+<counters:volume_yesterday>2268</counters:volume_yesterday>
+<counters:volumethisyear>448071</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Kej žrtava racije : Bul. M. Pupina - Maksima Gorkog (b)</title>
+<id>0025-23</id>
+<updated>2026-10-09T10:52:52Z</updated>
+<summary>, Kej žrtava racije : Bul. M. Pupina - Maksima Gorkog (b), today 146 bicycles, yesterday 780 bicycles, this year 199507 bicycles</summary>
+<georss:point>45,252942 19,855554</georss:point>
+<counters:location>0025</counters:location>
+<counters:locationDesc>Kej žrtava racije</counters:locationDesc>
+<counters:locationID>25NSa Kej zrtava racije</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>23</counters:direction>
+<counters:directionDesc>Bul. M. Pupina - Maksima Gorkog (b)</counters:directionDesc>
+<counters:laneDesc>(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,252942</counters:geoX>
+<counters:geoY>19,855554</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:52</counters:time>
+<counters:volume_today>146</counters:volume_today>
+<counters:volume_yesterday>780</counters:volume_yesterday>
+<counters:volumethisyear>199507</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Kej žrtava racije : Maksima Gorkog - Bul. M. Pupina (b)</title>
+<id>0025-13</id>
+<updated>2026-10-09T10:52:52Z</updated>
+<summary>, Kej žrtava racije : Maksima Gorkog - Bul. M. Pupina (b), today 148 bicycles, yesterday 798 bicycles, this year 200988 bicycles</summary>
+<georss:point>45,252942 19,855554</georss:point>
+<counters:location>0025</counters:location>
+<counters:locationDesc>Kej žrtava racije</counters:locationDesc>
+<counters:locationID>25NSa Kej zrtava racije</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>13</counters:direction>
+<counters:directionDesc>Maksima Gorkog - Bul. M. Pupina (b)</counters:directionDesc>
+<counters:laneDesc>(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,252942</counters:geoX>
+<counters:geoY>19,855554</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:52</counters:time>
+<counters:volume_today>148</counters:volume_today>
+<counters:volume_yesterday>798</counters:volume_yesterday>
+<counters:volumethisyear>200988</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Strand : Beogradski kej - Fruskogorska </title>
+<id>0026-21</id>
+<updated>2026-10-09T10:52:55Z</updated>
+<summary>, Strand : Beogradski kej - Fruskogorska , today 72 bicycles, yesterday 549 bicycles, this year 124508 bicycles</summary>
+<georss:point>45,237826 19,848426</georss:point>
+<counters:location>0026</counters:location>
+<counters:locationDesc>Strand</counters:locationDesc>
+<counters:locationID>26NS Strand</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Beogradski kej - Fruskogorska </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,237826</counters:geoX>
+<counters:geoY>19,848426</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:55</counters:time>
+<counters:volume_today>72</counters:volume_today>
+<counters:volume_yesterday>549</counters:volume_yesterday>
+<counters:volumethisyear>124508</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Strand : Fruskogorska - Beogradski kej </title>
+<id>0026-11</id>
+<updated>2026-10-09T10:52:51Z</updated>
+<summary>, Strand : Fruskogorska - Beogradski kej , today 80 bicycles, yesterday 473 bicycles, this year 113848 bicycles</summary>
+<georss:point>45,237826 19,848426</georss:point>
+<counters:location>0026</counters:location>
+<counters:locationDesc>Strand</counters:locationDesc>
+<counters:locationID>26NS Strand</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Fruskogorska - Beogradski kej </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,237826</counters:geoX>
+<counters:geoY>19,848426</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:51</counters:time>
+<counters:volume_today>80</counters:volume_today>
+<counters:volume_yesterday>473</counters:volume_yesterday>
+<counters:volumethisyear>113848</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. Evrope (K. Racina) : H. Ruvimova - K. Stankovica (u oba smera)(b)</title>
+<id>0027-24</id>
+<updated>2026-10-09T10:52:51Z</updated>
+<summary>, Bul. Evrope (K. Racina) : H. Ruvimova - K. Stankovica (u oba smera)(b), today 322 bicycles, yesterday 1352 bicycles, this year 273222 bicycles</summary>
+<georss:point>45,257879 19,810436</georss:point>
+<counters:location>0027</counters:location>
+<counters:locationDesc>Bul. Evrope (K. Racina)</counters:locationDesc>
+<counters:locationID>27NSb Bul. Evrope (K.Racina)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>H. Ruvimova - K. Stankovica (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,257879</counters:geoX>
+<counters:geoY>19,810436</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:51</counters:time>
+<counters:volume_today>322</counters:volume_today>
+<counters:volume_yesterday>1352</counters:volume_yesterday>
+<counters:volumethisyear>273222</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. Evrope (K. Racina) : K. Stankovica - H. Ruvimova (u oba smera)(b)</title>
+<id>0027-14</id>
+<updated>2026-10-09T10:52:52Z</updated>
+<summary>, Bul. Evrope (K. Racina) : K. Stankovica - H. Ruvimova (u oba smera)(b), today 136 bicycles, yesterday 672 bicycles, this year 52272 bicycles</summary>
+<georss:point>45,257699 19,810026</georss:point>
+<counters:location>0027</counters:location>
+<counters:locationDesc>Bul. Evrope (K. Racina)</counters:locationDesc>
+<counters:locationID>27NSa Bul. Evrope (K.Racina)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>K. Stankovica - H. Ruvimova (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,257699</counters:geoX>
+<counters:geoY>19,810026</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:52</counters:time>
+<counters:volume_today>136</counters:volume_today>
+<counters:volume_yesterday>672</counters:volume_yesterday>
+<counters:volumethisyear>52272</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. Oslobodjenja-Slovačka : Bul. kralja Petra I - Pap Pavla </title>
+<id>0028-21</id>
+<updated>2026-10-09T10:52:51Z</updated>
+<summary>, Bul. Oslobodjenja-Slovačka : Bul. kralja Petra I - Pap Pavla , today 0 bicycles, yesterday 0 bicycles, this year 85362 bicycles</summary>
+<georss:point>45,256758 19,834542</georss:point>
+<counters:location>0028</counters:location>
+<counters:locationDesc>Bul. Oslobodjenja-Slovačka</counters:locationDesc>
+<counters:locationID>28NS Bul. Oslobodjenja -Slovacka</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Bul. kralja Petra I - Pap Pavla </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,256758</counters:geoX>
+<counters:geoY>19,834542</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:51</counters:time>
+<counters:volume_today>0</counters:volume_today>
+<counters:volume_yesterday>0</counters:volume_yesterday>
+<counters:volumethisyear>85362</counters:volumethisyear>
+<counters:state>6</counters:state>
+<counters:stateDesc>Nema saobraćaja</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. Oslobodjenja-Slovačka : Pap Pavla - Bul. kralja Petra I </title>
+<id>0028-11</id>
+<updated>2026-10-09T10:52:53Z</updated>
+<summary>, Bul. Oslobodjenja-Slovačka : Pap Pavla - Bul. kralja Petra I , today 490 bicycles, yesterday 1982 bicycles, this year 287409 bicycles</summary>
+<georss:point>45,256758 19,834542</georss:point>
+<counters:location>0028</counters:location>
+<counters:locationDesc>Bul. Oslobodjenja-Slovačka</counters:locationDesc>
+<counters:locationID>28NS Bul. Oslobodjenja -Slovacka</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Pap Pavla - Bul. kralja Petra I </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,256758</counters:geoX>
+<counters:geoY>19,834542</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:53</counters:time>
+<counters:volume_today>490</counters:volume_today>
+<counters:volume_yesterday>1982</counters:volume_yesterday>
+<counters:volumethisyear>287409</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Rumenacka : J. Tomica - Kralja Petra I (u oba smera)(b)</title>
+<id>0029-13</id>
+<updated>2026-10-09T10:52:54Z</updated>
+<summary>, Rumenacka : J. Tomica - Kralja Petra I (u oba smera)(b), today 424 bicycles, yesterday 1197 bicycles, this year 226378 bicycles</summary>
+<georss:point>45,260059 19,821530</georss:point>
+<counters:location>0029</counters:location>
+<counters:locationDesc>Rumenacka</counters:locationDesc>
+<counters:locationID>29NSa Rumenacka</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>13</counters:direction>
+<counters:directionDesc>J. Tomica - Kralja Petra I (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,260059</counters:geoX>
+<counters:geoY>19,821530</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:54</counters:time>
+<counters:volume_today>424</counters:volume_today>
+<counters:volume_yesterday>1197</counters:volume_yesterday>
+<counters:volumethisyear>226378</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Rumenacka : Kralja Petra I - J. Tomica (u oba smera)(b)</title>
+<id>0029-23</id>
+<updated>2026-10-09T10:52:53Z</updated>
+<summary>, Rumenacka : Kralja Petra I - J. Tomica (u oba smera)(b), today 231 bicycles, yesterday 786 bicycles, this year 209416 bicycles</summary>
+<georss:point>45,260162 19,821722</georss:point>
+<counters:location>0029</counters:location>
+<counters:locationDesc>Rumenacka</counters:locationDesc>
+<counters:locationID>29NSb Rumenacka</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>23</counters:direction>
+<counters:directionDesc>Kralja Petra I - J. Tomica (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,260162</counters:geoX>
+<counters:geoY>19,821722</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:53</counters:time>
+<counters:volume_today>231</counters:volume_today>
+<counters:volume_yesterday>786</counters:volume_yesterday>
+<counters:volumethisyear>209416</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. cara Lazara : Bul. Oslobodj.-Fruskogorska (u oba smera)(b)</title>
+<id>0030-14</id>
+<updated>2026-10-09T10:52:55Z</updated>
+<summary>, Bul. cara Lazara : Bul. Oslobodj.-Fruskogorska (u oba smera)(b), today 552 bicycles, yesterday 1798 bicycles, this year 335194 bicycles</summary>
+<georss:point>45,244116 19,843214</georss:point>
+<counters:location>0030</counters:location>
+<counters:locationDesc>Bul. cara Lazara</counters:locationDesc>
+<counters:locationID>30NSa Bul. cara Lazara</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Bul. Oslobodj.-Fruskogorska (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,244116</counters:geoX>
+<counters:geoY>19,843214</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:55</counters:time>
+<counters:volume_today>552</counters:volume_today>
+<counters:volume_yesterday>1798</counters:volume_yesterday>
+<counters:volumethisyear>335194</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. cara Lazara : Fruskogorska-Bul. Oslobodj. (u oba smera)(b)</title>
+<id>0030-24</id>
+<updated>2026-10-09T10:52:55Z</updated>
+<summary>, Bul. cara Lazara : Fruskogorska-Bul. Oslobodj. (u oba smera)(b), today 466 bicycles, yesterday 2007 bicycles, this year 361551 bicycles</summary>
+<georss:point>45,244420 19,843149</georss:point>
+<counters:location>0030</counters:location>
+<counters:locationDesc>Bul. cara Lazara</counters:locationDesc>
+<counters:locationID>30NSb Bul. cara Lazara</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Fruskogorska-Bul. Oslobodj. (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,244420</counters:geoX>
+<counters:geoY>19,843149</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:55</counters:time>
+<counters:volume_today>466</counters:volume_today>
+<counters:volume_yesterday>2007</counters:volume_yesterday>
+<counters:volumethisyear>361551</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Kralja Petra 1-Adamova : Bul. Oslobodjenja - Rumenacka (u oba smera)(b)</title>
+<id>0031-23</id>
+<updated>2026-10-09T10:52:54Z</updated>
+<summary>, Kralja Petra 1-Adamova : Bul. Oslobodjenja - Rumenacka (u oba smera)(b), today 823 bicycles, yesterday 1937 bicycles, this year 449768 bicycles</summary>
+<georss:point>45,259558 19,827023</georss:point>
+<counters:location>0031</counters:location>
+<counters:locationDesc>Kralja Petra 1-Adamova</counters:locationDesc>
+<counters:locationID>31NSb Kralja Petra I -P. Adamova</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>23</counters:direction>
+<counters:directionDesc>Bul. Oslobodjenja - Rumenacka (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,259558</counters:geoX>
+<counters:geoY>19,827023</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:54</counters:time>
+<counters:volume_today>823</counters:volume_today>
+<counters:volume_yesterday>1937</counters:volume_yesterday>
+<counters:volumethisyear>449768</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoška (N. Tesle) : Bul. Oslobodjenja - C. Dušana  (u oba smera)(b)</title>
+<id>0034-24</id>
+<updated>2026-10-09T10:52:57Z</updated>
+<summary>, Futoška (N. Tesle) : Bul. Oslobodjenja - C. Dušana  (u oba smera)(b), today 632 bicycles, yesterday 2270 bicycles, this year 415838 bicycles</summary>
+<georss:point>45,24924 19,82866</georss:point>
+<counters:location>0034</counters:location>
+<counters:locationDesc>Futoška (N. Tesle)</counters:locationDesc>
+<counters:locationID>34NSb Futoska (N. Tesle)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Bul. Oslobodjenja - C. Dušana  (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,24924</counters:geoX>
+<counters:geoY>19,82866</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:57</counters:time>
+<counters:volume_today>632</counters:volume_today>
+<counters:volume_yesterday>2270</counters:volume_yesterday>
+<counters:volumethisyear>415838</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoška (N. Tesle) : C. Dušana - Bul. Oslobodjenja (u oba smera)(b)</title>
+<id>0034-14</id>
+<updated>2026-10-09T10:53:02Z</updated>
+<summary>, Futoška (N. Tesle) : C. Dušana - Bul. Oslobodjenja (u oba smera)(b), today 1456 bicycles, yesterday 5178 bicycles, this year 900751 bicycles</summary>
+<georss:point>45,249 19,82831</georss:point>
+<counters:location>0034</counters:location>
+<counters:locationDesc>Futoška (N. Tesle)</counters:locationDesc>
+<counters:locationID>34NSa Futoska (N. Tesle)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>C. Dušana - Bul. Oslobodjenja (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,249</counters:geoX>
+<counters:geoY>19,82831</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:02</counters:time>
+<counters:volume_today>1456</counters:volume_today>
+<counters:volume_yesterday>5178</counters:volume_yesterday>
+<counters:volumethisyear>900751</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Jevrejska : Bul. M. Pupina - Futoska (u oba smera)(b)</title>
+<id>0036-24</id>
+<updated>2026-10-09T10:52:57Z</updated>
+<summary>, Jevrejska : Bul. M. Pupina - Futoska (u oba smera)(b), today 272 bicycles, yesterday 1428 bicycles, this year 81715 bicycles</summary>
+<georss:point>45,25272 19,83855</georss:point>
+<counters:location>0036</counters:location>
+<counters:locationDesc>Jevrejska</counters:locationDesc>
+<counters:locationID>36NSb Jevrejska</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Bul. M. Pupina - Futoska (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,25272</counters:geoX>
+<counters:geoY>19,83855</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:57</counters:time>
+<counters:volume_today>272</counters:volume_today>
+<counters:volume_yesterday>1428</counters:volume_yesterday>
+<counters:volumethisyear>81715</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Jevrejska : Futoska - Bul. M. Pupina (u oba smera)(b)</title>
+<id>0036-14</id>
+<updated>2026-10-09T10:52:58Z</updated>
+<summary>, Jevrejska : Futoska - Bul. M. Pupina (u oba smera)(b), today 708 bicycles, yesterday 2547 bicycles, this year 495718 bicycles</summary>
+<georss:point>45,25254 19,83869</georss:point>
+<counters:location>0036</counters:location>
+<counters:locationDesc>Jevrejska</counters:locationDesc>
+<counters:locationID>36NSa Jevrejska</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Futoska - Bul. M. Pupina (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,25254</counters:geoX>
+<counters:geoY>19,83869</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:58</counters:time>
+<counters:volume_today>708</counters:volume_today>
+<counters:volume_yesterday>2547</counters:volume_yesterday>
+<counters:volumethisyear>495718</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul.oslobodjenja (N.fronta) : Most slobode - N. fronta (u oba smera)(b)</title>
+<id>0037-14</id>
+<updated>2026-10-09T10:53:02Z</updated>
+<summary>, Bul.oslobodjenja (N.fronta) : Most slobode - N. fronta (u oba smera)(b), today 81 bicycles, yesterday 345 bicycles, this year 99716 bicycles</summary>
+<georss:point>45,240876 19,843284</georss:point>
+<counters:location>0037</counters:location>
+<counters:locationDesc>Bul.oslobodjenja (N.fronta)</counters:locationDesc>
+<counters:locationID>37NSa Bul.oslobodjenja(N.fronta)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Most slobode - N. fronta (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240876</counters:geoX>
+<counters:geoY>19,843284</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:02</counters:time>
+<counters:volume_today>81</counters:volume_today>
+<counters:volume_yesterday>345</counters:volume_yesterday>
+<counters:volumethisyear>99716</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Hadži Ruvimova : B. Evrope - Rumenacka (u oba smera)(b)</title>
+<id>0038-14</id>
+<updated>2026-10-09T10:53:01Z</updated>
+<summary>, Hadži Ruvimova : B. Evrope - Rumenacka (u oba smera)(b), today 388 bicycles, yesterday 1327 bicycles, this year 219772 bicycles</summary>
+<georss:point>45,258039 19,818758</georss:point>
+<counters:location>0038</counters:location>
+<counters:locationDesc>Hadži Ruvimova</counters:locationDesc>
+<counters:locationID>38NSa Hadzi Ruvimova</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>B. Evrope - Rumenacka (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,258039</counters:geoX>
+<counters:geoY>19,818758</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:01</counters:time>
+<counters:volume_today>388</counters:volume_today>
+<counters:volume_yesterday>1327</counters:volume_yesterday>
+<counters:volumethisyear>219772</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Hadži Ruvimova : Rumenacka - B. Evrope (u oba smera)(b)</title>
+<id>0038-24</id>
+<updated>2026-10-09T10:52:58Z</updated>
+<summary>, Hadži Ruvimova : Rumenacka - B. Evrope (u oba smera)(b), today 445 bicycles, yesterday 1405 bicycles, this year 307366 bicycles</summary>
+<georss:point>45,258395 19,819157</georss:point>
+<counters:location>0038</counters:location>
+<counters:locationDesc>Hadži Ruvimova</counters:locationDesc>
+<counters:locationID>38NSb Hadzi Ruvimova</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Rumenacka - B. Evrope (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,258395</counters:geoX>
+<counters:geoY>19,819157</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:58</counters:time>
+<counters:volume_today>445</counters:volume_today>
+<counters:volume_yesterday>1405</counters:volume_yesterday>
+<counters:volumethisyear>307366</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. J. Tomića : B. oslobodjenja - Rumenacka (u oba smera)(b)</title>
+<id>0039-24</id>
+<updated>2026-10-09T10:52:59Z</updated>
+<summary>, Bul. J. Tomića : B. oslobodjenja - Rumenacka (u oba smera)(b), today 276 bicycles, yesterday 993 bicycles, this year 191903 bicycles</summary>
+<georss:point>45,264110 19,821189</georss:point>
+<counters:location>0039</counters:location>
+<counters:locationDesc>Bul. J. Tomića</counters:locationDesc>
+<counters:locationID>39NSb Bul. J. Tomica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>B. oslobodjenja - Rumenacka (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,264110</counters:geoX>
+<counters:geoY>19,821189</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:59</counters:time>
+<counters:volume_today>276</counters:volume_today>
+<counters:volume_yesterday>993</counters:volume_yesterday>
+<counters:volumethisyear>191903</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. J. Tomića : Rumenacka - B. oslobodjenja (u oba smera)(b)</title>
+<id>0039-14</id>
+<updated>2026-10-09T10:53:02Z</updated>
+<summary>, Bul. J. Tomića : Rumenacka - B. oslobodjenja (u oba smera)(b), today 223 bicycles, yesterday 227 bicycles, this year 144913 bicycles</summary>
+<georss:point>45,263871 19,821154</georss:point>
+<counters:location>0039</counters:location>
+<counters:locationDesc>Bul. J. Tomića</counters:locationDesc>
+<counters:locationID>39NSa Bul. J. Tomica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Rumenacka - B. oslobodjenja (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,263871</counters:geoX>
+<counters:geoY>19,821154</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:02</counters:time>
+<counters:volume_today>223</counters:volume_today>
+<counters:volume_yesterday>227</counters:volume_yesterday>
+<counters:volumethisyear>144913</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. P. Pavla : Bul Evrope - Vrsacka </title>
+<id>0040-21</id>
+<updated>2026-10-09T10:52:59Z</updated>
+<summary>, Bul. P. Pavla : Bul Evrope - Vrsacka , today 146 bicycles, yesterday 722 bicycles, this year 128893 bicycles</summary>
+<georss:point>45,240035 19,817155</georss:point>
+<counters:location>0040</counters:location>
+<counters:locationDesc>Bul. P. Pavla</counters:locationDesc>
+<counters:locationID>40NSa Bul. P. Pavla</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Bul Evrope - Vrsacka </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240035</counters:geoX>
+<counters:geoY>19,817155</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:59</counters:time>
+<counters:volume_today>146</counters:volume_today>
+<counters:volume_yesterday>722</counters:volume_yesterday>
+<counters:volumethisyear>128893</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. P. Pavla : Bul Evrope - Vrsacka </title>
+<id>0040-11</id>
+<updated>2026-10-09T10:53:00Z</updated>
+<summary>, Bul. P. Pavla : Bul Evrope - Vrsacka , today 104 bicycles, yesterday 465 bicycles, this year 86697 bicycles</summary>
+<georss:point>45,240244 19,817184</georss:point>
+<counters:location>0040</counters:location>
+<counters:locationDesc>Bul. P. Pavla</counters:locationDesc>
+<counters:locationID>40NSb Bul. P. Pavla</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Bul Evrope - Vrsacka </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240244</counters:geoX>
+<counters:geoY>19,817184</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:00</counters:time>
+<counters:volume_today>104</counters:volume_today>
+<counters:volume_yesterday>465</counters:volume_yesterday>
+<counters:volumethisyear>86697</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. P. Pavla : Vrsacka - Bul Evrope </title>
+<id>0040-21</id>
+<updated>2026-10-09T10:53:00Z</updated>
+<summary>, Bul. P. Pavla : Vrsacka - Bul Evrope , today 117 bicycles, yesterday 368 bicycles, this year 67580 bicycles</summary>
+<georss:point>45,240244 19,817184</georss:point>
+<counters:location>0040</counters:location>
+<counters:locationDesc>Bul. P. Pavla</counters:locationDesc>
+<counters:locationID>40NSb Bul. P. Pavla</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Vrsacka - Bul Evrope </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240244</counters:geoX>
+<counters:geoY>19,817184</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:00</counters:time>
+<counters:volume_today>117</counters:volume_today>
+<counters:volume_yesterday>368</counters:volume_yesterday>
+<counters:volumethisyear>67580</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. P. Pavla : Vrsacka - Bul Evrope </title>
+<id>0040-11</id>
+<updated>2026-10-09T10:53:03Z</updated>
+<summary>, Bul. P. Pavla : Vrsacka - Bul Evrope , today 280 bicycles, yesterday 851 bicycles, this year 143527 bicycles</summary>
+<georss:point>45,240035 19,817155</georss:point>
+<counters:location>0040</counters:location>
+<counters:locationDesc>Bul. P. Pavla</counters:locationDesc>
+<counters:locationID>40NSa Bul. P. Pavla</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Vrsacka - Bul Evrope </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240035</counters:geoX>
+<counters:geoY>19,817155</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:03</counters:time>
+<counters:volume_today>280</counters:volume_today>
+<counters:volume_yesterday>851</counters:volume_yesterday>
+<counters:volumethisyear>143527</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul.oslobodjenja (N.Sajma) : Bul. kralja Petra I - N.Sajma </title>
+<id>0041-11</id>
+<updated>2026-10-09T10:53:04Z</updated>
+<summary>, Bul.oslobodjenja (N.Sajma) : Bul. kralja Petra I - N.Sajma , today 493 bicycles, yesterday 1212 bicycles, this year 240860 bicycles</summary>
+<georss:point>45,255568 19,834719</georss:point>
+<counters:location>0041</counters:location>
+<counters:locationDesc>Bul.oslobodjenja (N.Sajma)</counters:locationDesc>
+<counters:locationID>41NS Bul.oslobodjenja(N.Sajma)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Bul. kralja Petra I - N.Sajma </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,255568</counters:geoX>
+<counters:geoY>19,834719</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:04</counters:time>
+<counters:volume_today>493</counters:volume_today>
+<counters:volume_yesterday>1212</counters:volume_yesterday>
+<counters:volumethisyear>240860</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul.oslobodjenja (N.Sajma) : N.Sajma - Bul. kralja Petra I </title>
+<id>0041-21</id>
+<updated>2026-10-09T10:52:59Z</updated>
+<summary>, Bul.oslobodjenja (N.Sajma) : N.Sajma - Bul. kralja Petra I , today 322 bicycles, yesterday 1008 bicycles, this year 197800 bicycles</summary>
+<georss:point>45,255568 19,834719</georss:point>
+<counters:location>0041</counters:location>
+<counters:locationDesc>Bul.oslobodjenja (N.Sajma)</counters:locationDesc>
+<counters:locationID>41NS Bul.oslobodjenja(N.Sajma)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>N.Sajma - Bul. kralja Petra I </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,255568</counters:geoX>
+<counters:geoY>19,834719</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:59</counters:time>
+<counters:volume_today>322</counters:volume_today>
+<counters:volume_yesterday>1008</counters:volume_yesterday>
+<counters:volumethisyear>197800</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Raše Radujkova : Bul Evrope - Bul S. Jovanovica (u oba smera)(b)</title>
+<id>0042-23</id>
+<updated>2026-10-09T10:53:03Z</updated>
+<summary>, Raše Radujkova : Bul Evrope - Bul S. Jovanovica (u oba smera)(b), today 259 bicycles, yesterday 884 bicycles, this year 191726 bicycles</summary>
+<georss:point>45,253968 19,806119</georss:point>
+<counters:location>0042</counters:location>
+<counters:locationDesc>Raše Radujkova</counters:locationDesc>
+<counters:locationID>42NSb Radomira Rase Radujkova</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>23</counters:direction>
+<counters:directionDesc>Bul Evrope - Bul S. Jovanovica (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,253968</counters:geoX>
+<counters:geoY>19,806119</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:03</counters:time>
+<counters:volume_today>259</counters:volume_today>
+<counters:volume_yesterday>884</counters:volume_yesterday>
+<counters:volumethisyear>191726</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Raše Radujkova : Bul S. Jovanovica - Bul Evrope (u oba smera)(b)</title>
+<id>0042-13</id>
+<updated>2026-10-09T10:53:01Z</updated>
+<summary>, Raše Radujkova : Bul S. Jovanovica - Bul Evrope (u oba smera)(b), today 69 bicycles, yesterday 3 bicycles, this year 175026 bicycles</summary>
+<georss:point>45,253781 19,806246</georss:point>
+<counters:location>0042</counters:location>
+<counters:locationDesc>Raše Radujkova</counters:locationDesc>
+<counters:locationID>42NSa Radomira Rase Radujkova</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>13</counters:direction>
+<counters:directionDesc>Bul S. Jovanovica - Bul Evrope (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,253781</counters:geoX>
+<counters:geoY>19,806246</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:01</counters:time>
+<counters:volume_today>69</counters:volume_today>
+<counters:volume_yesterday>3</counters:volume_yesterday>
+<counters:volumethisyear>175026</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Kornelija Stankovića : Bul.Evrope-Rumenacka (u oba smera)(b)</title>
+<id>0043-14</id>
+<updated>2026-10-09T10:53:07Z</updated>
+<summary>, Kornelija Stankovića : Bul.Evrope-Rumenacka (u oba smera)(b), today 227 bicycles, yesterday 1028 bicycles, this year 208323 bicycles</summary>
+<georss:point>45,262419 19,814289</georss:point>
+<counters:location>0043</counters:location>
+<counters:locationDesc>Kornelija Stankovića</counters:locationDesc>
+<counters:locationID>43NSa K.Stankovica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Bul.Evrope-Rumenacka (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,262419</counters:geoX>
+<counters:geoY>19,814289</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:07</counters:time>
+<counters:volume_today>227</counters:volume_today>
+<counters:volume_yesterday>1028</counters:volume_yesterday>
+<counters:volumethisyear>208323</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Kornelija Stankovića : Rumenacka-Bul.Evrope (u oba smera)(b)</title>
+<id>0043-24</id>
+<updated>2026-10-09T10:53:04Z</updated>
+<summary>, Kornelija Stankovića : Rumenacka-Bul.Evrope (u oba smera)(b), today 127 bicycles, yesterday 441 bicycles, this year 86897 bicycles</summary>
+<georss:point>45,262573 19,814263</georss:point>
+<counters:location>0043</counters:location>
+<counters:locationDesc>Kornelija Stankovića</counters:locationDesc>
+<counters:locationID>43NSb K.Stankovica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Rumenacka-Bul.Evrope (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,262573</counters:geoX>
+<counters:geoY>19,814263</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:04</counters:time>
+<counters:volume_today>127</counters:volume_today>
+<counters:volume_yesterday>441</counters:volume_yesterday>
+<counters:volumethisyear>86897</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. Evrope (B.Bajića) : Futoska-H.Ruvimova (u oba smera)(b)</title>
+<id>0044-24</id>
+<updated>2026-10-09T10:53:08Z</updated>
+<summary>, Bul. Evrope (B.Bajića) : Futoska-H.Ruvimova (u oba smera)(b), today 252 bicycles, yesterday 1154 bicycles, this year 217495 bicycles</summary>
+<georss:point>45,253588 19,813390</georss:point>
+<counters:location>0044</counters:location>
+<counters:locationDesc>Bul. Evrope (B.Bajića)</counters:locationDesc>
+<counters:locationID>44NSb Bul.Evrope(B.Bajica)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Futoska-H.Ruvimova (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,253588</counters:geoX>
+<counters:geoY>19,813390</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:08</counters:time>
+<counters:volume_today>252</counters:volume_today>
+<counters:volume_yesterday>1154</counters:volume_yesterday>
+<counters:volumethisyear>217495</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bul. Evrope (B.Bajića) : H.Ruvimova-Futoska (u oba smera)(b)</title>
+<id>0044-14</id>
+<updated>2026-10-09T10:53:07Z</updated>
+<summary>, Bul. Evrope (B.Bajića) : H.Ruvimova-Futoska (u oba smera)(b), today 225 bicycles, yesterday 792 bicycles, this year 164349 bicycles</summary>
+<georss:point>45,253448 19,813023</georss:point>
+<counters:location>0044</counters:location>
+<counters:locationDesc>Bul. Evrope (B.Bajića)</counters:locationDesc>
+<counters:locationID>44NSa Bul.Evrope(B.Bajica)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>H.Ruvimova-Futoska (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,253448</counters:geoX>
+<counters:geoY>19,813023</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:07</counters:time>
+<counters:volume_today>225</counters:volume_today>
+<counters:volume_yesterday>792</counters:volume_yesterday>
+<counters:volumethisyear>164349</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bate Brkića : Bul.J.Ducica-Futoski put (u oba smera)(b)</title>
+<id>0045-14</id>
+<updated>2026-10-09T10:53:04Z</updated>
+<summary>, Bate Brkića : Bul.J.Ducica-Futoski put (u oba smera)(b), today 162 bicycles, yesterday 526 bicycles, this year 94564 bicycles</summary>
+<georss:point>45,249447 19,798124</georss:point>
+<counters:location>0045</counters:location>
+<counters:locationDesc>Bate Brkića</counters:locationDesc>
+<counters:locationID>45NSa Bate Brkica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Bul.J.Ducica-Futoski put (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,249447</counters:geoX>
+<counters:geoY>19,798124</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:04</counters:time>
+<counters:volume_today>162</counters:volume_today>
+<counters:volume_yesterday>526</counters:volume_yesterday>
+<counters:volumethisyear>94564</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bate Brkića : Futoski put-Bul.J.Ducica (u oba smera)(b)</title>
+<id>0045-24</id>
+<updated>2026-10-09T10:53:08Z</updated>
+<summary>, Bate Brkića : Futoski put-Bul.J.Ducica (u oba smera)(b), today 229 bicycles, yesterday 810 bicycles, this year 169426 bicycles</summary>
+<georss:point>45,249530 19,798362</georss:point>
+<counters:location>0045</counters:location>
+<counters:locationDesc>Bate Brkića</counters:locationDesc>
+<counters:locationID>45NSb Bate Brkica</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Futoski put-Bul.J.Ducica (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,249530</counters:geoX>
+<counters:geoY>19,798362</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:08</counters:time>
+<counters:volume_today>229</counters:volume_today>
+<counters:volume_yesterday>810</counters:volume_yesterday>
+<counters:volumethisyear>169426</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Bate Brkica-Bul.Kneza Milosa </title>
+<id>0046-21</id>
+<updated>2026-10-09T10:53:06Z</updated>
+<summary>, Futoški put : Bate Brkica-Bul.Kneza Milosa , today 123 bicycles, yesterday 445 bicycles, this year 84117 bicycles</summary>
+<georss:point>45,245966 19,800219</georss:point>
+<counters:location>0046</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>46NSa Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Bate Brkica-Bul.Kneza Milosa </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,245966</counters:geoX>
+<counters:geoY>19,800219</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:06</counters:time>
+<counters:volume_today>123</counters:volume_today>
+<counters:volume_yesterday>445</counters:volume_yesterday>
+<counters:volumethisyear>84117</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Bate Brkica-Bul.Kneza Milosa </title>
+<id>0046-11</id>
+<updated>2026-10-09T10:53:06Z</updated>
+<summary>, Futoški put : Bate Brkica-Bul.Kneza Milosa , today 243 bicycles, yesterday 619 bicycles, this year 113337 bicycles</summary>
+<georss:point>45,245971 19,799306</georss:point>
+<counters:location>0046</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>46NSb Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Bate Brkica-Bul.Kneza Milosa </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,245971</counters:geoX>
+<counters:geoY>19,799306</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:06</counters:time>
+<counters:volume_today>243</counters:volume_today>
+<counters:volume_yesterday>619</counters:volume_yesterday>
+<counters:volumethisyear>113337</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Bul.Kneza Milosa-Bate Brkica </title>
+<id>0046-11</id>
+<updated>2026-10-09T10:53:01Z</updated>
+<summary>, Futoški put : Bul.Kneza Milosa-Bate Brkica , today 181 bicycles, yesterday 501 bicycles, this year 100094 bicycles</summary>
+<georss:point>45,245966 19,800219</georss:point>
+<counters:location>0046</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>46NSa Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Bul.Kneza Milosa-Bate Brkica </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,245966</counters:geoX>
+<counters:geoY>19,800219</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:01</counters:time>
+<counters:volume_today>181</counters:volume_today>
+<counters:volume_yesterday>501</counters:volume_yesterday>
+<counters:volumethisyear>100094</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Bul.Kneza Milosa-Bate Brkica </title>
+<id>0046-21</id>
+<updated>2026-10-09T10:53:06Z</updated>
+<summary>, Futoški put : Bul.Kneza Milosa-Bate Brkica , today 155 bicycles, yesterday 700 bicycles, this year 134121 bicycles</summary>
+<georss:point>45,245971 19,799306</georss:point>
+<counters:location>0046</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>46NSb Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Bul.Kneza Milosa-Bate Brkica </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,245971</counters:geoX>
+<counters:geoY>19,799306</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:06</counters:time>
+<counters:volume_today>155</counters:volume_today>
+<counters:volume_yesterday>700</counters:volume_yesterday>
+<counters:volumethisyear>134121</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Narodnog fronta (Šekspirova) : Bul.oslobodjenja-Sekspirova </title>
+<id>0047-21</id>
+<updated>2026-10-09T10:53:05Z</updated>
+<summary>, Narodnog fronta (Šekspirova) : Bul.oslobodjenja-Sekspirova , today 92 bicycles, yesterday 331 bicycles, this year 66699 bicycles</summary>
+<georss:point>45,240345 19,838594</georss:point>
+<counters:location>0047</counters:location>
+<counters:locationDesc>Narodnog fronta (Šekspirova)</counters:locationDesc>
+<counters:locationID>47NS Narodnog fronta(Sekspirova)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Bul.oslobodjenja-Sekspirova </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240345</counters:geoX>
+<counters:geoY>19,838594</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:05</counters:time>
+<counters:volume_today>92</counters:volume_today>
+<counters:volume_yesterday>331</counters:volume_yesterday>
+<counters:volumethisyear>66699</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Narodnog fronta (Šekspirova) : Sekspirova-Bul.oslobodjenja </title>
+<id>0047-11</id>
+<updated>2026-10-09T10:53:05Z</updated>
+<summary>, Narodnog fronta (Šekspirova) : Sekspirova-Bul.oslobodjenja , today 166 bicycles, yesterday 488 bicycles, this year 108086 bicycles</summary>
+<georss:point>45,240345 19,838594</georss:point>
+<counters:location>0047</counters:location>
+<counters:locationDesc>Narodnog fronta (Šekspirova)</counters:locationDesc>
+<counters:locationID>47NS Narodnog fronta(Sekspirova)</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Sekspirova-Bul.oslobodjenja </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,240345</counters:geoX>
+<counters:geoY>19,838594</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:05</counters:time>
+<counters:volume_today>166</counters:volume_today>
+<counters:volume_yesterday>488</counters:volume_yesterday>
+<counters:volumethisyear>108086</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Maksima Gorkog : Strazilovska-Sutjeska (u oba smera)(b)</title>
+<id>0049-24</id>
+<updated>2026-10-09T10:53:09Z</updated>
+<summary>, Maksima Gorkog : Strazilovska-Sutjeska (u oba smera)(b), today 0 bicycles, yesterday 4 bicycles, this year 22515 bicycles</summary>
+<georss:point>45,249741 19,845811</georss:point>
+<counters:location>0049</counters:location>
+<counters:locationDesc>Maksima Gorkog</counters:locationDesc>
+<counters:locationID>49NSb Maksima Gorkog</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>Strazilovska-Sutjeska (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,249741</counters:geoX>
+<counters:geoY>19,845811</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:09</counters:time>
+<counters:volume_today>0</counters:volume_today>
+<counters:volume_yesterday>4</counters:volume_yesterday>
+<counters:volumethisyear>22515</counters:volumethisyear>
+<counters:state>6</counters:state>
+<counters:stateDesc>Nema saobraćaja</counters:stateDesc>
+</entry>
+<entry>
+<title>, Maksima Gorkog : Sutjeska-Strazilovska (u oba smera)(b)</title>
+<id>0049-14</id>
+<updated>2026-10-09T10:53:08Z</updated>
+<summary>, Maksima Gorkog : Sutjeska-Strazilovska (u oba smera)(b), today 120 bicycles, yesterday 328 bicycles, this year 64437 bicycles</summary>
+<georss:point>45,249620 19,845863</georss:point>
+<counters:location>0049</counters:location>
+<counters:locationDesc>Maksima Gorkog</counters:locationDesc>
+<counters:locationID>49NSa Maksima Gorkog</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Sutjeska-Strazilovska (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,249620</counters:geoX>
+<counters:geoY>19,845863</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:08</counters:time>
+<counters:volume_today>120</counters:volume_today>
+<counters:volume_yesterday>328</counters:volume_yesterday>
+<counters:volumethisyear>64437</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Braće Ribnikar : Futoska-M.Dimitrijevica (u oba smera)(b)</title>
+<id>0050-14</id>
+<updated>2026-10-09T10:53:09Z</updated>
+<summary>, Braće Ribnikar : Futoska-M.Dimitrijevica (u oba smera)(b), today 233 bicycles, yesterday 1079 bicycles, this year 167514 bicycles</summary>
+<georss:point>45,248713 19,833487</georss:point>
+<counters:location>0050</counters:location>
+<counters:locationDesc>Braće Ribnikar</counters:locationDesc>
+<counters:locationID>50NSa Brace Ribnikar</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>14</counters:direction>
+<counters:directionDesc>Futoska-M.Dimitrijevica (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,248713</counters:geoX>
+<counters:geoY>19,833487</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:09</counters:time>
+<counters:volume_today>233</counters:volume_today>
+<counters:volume_yesterday>1079</counters:volume_yesterday>
+<counters:volumethisyear>167514</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Braće Ribnikar : M.Dimitrijevica-Futoska (u oba smera)(b)</title>
+<id>0050-24</id>
+<updated>2026-10-09T10:53:10Z</updated>
+<summary>, Braće Ribnikar : M.Dimitrijevica-Futoska (u oba smera)(b), today 183 bicycles, yesterday 731 bicycles, this year 106240 bicycles</summary>
+<georss:point>45,248852 19,833603</georss:point>
+<counters:location>0050</counters:location>
+<counters:locationDesc>Braće Ribnikar</counters:locationDesc>
+<counters:locationID>50NSb Brace Ribnikar</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>24</counters:direction>
+<counters:directionDesc>M.Dimitrijevica-Futoska (u oba smera)(b)</counters:directionDesc>
+<counters:laneDesc>(u oba smera)(b)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,248852</counters:geoX>
+<counters:geoY>19,833603</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:53:10</counters:time>
+<counters:volume_today>183</counters:volume_today>
+<counters:volume_yesterday>731</counters:volume_yesterday>
+<counters:volumethisyear>106240</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Bul.Evrope-Suboticka </title>
+<id>0051-11</id>
+<updated>2026-10-09T10:52:56Z</updated>
+<summary>, Futoški put : Bul.Evrope-Suboticka , today 297 bicycles, yesterday 1547 bicycles, this year 288144 bicycles</summary>
+<georss:point>45,248277 19,814417</georss:point>
+<counters:location>0051</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>51NSb Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Bul.Evrope-Suboticka </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,248277</counters:geoX>
+<counters:geoY>19,814417</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:56</counters:time>
+<counters:volume_today>297</counters:volume_today>
+<counters:volume_yesterday>1547</counters:volume_yesterday>
+<counters:volumethisyear>288144</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Bul.Evrope-Suboticka </title>
+<id>0051-21</id>
+<updated>2026-10-09T10:52:50Z</updated>
+<summary>, Futoški put : Bul.Evrope-Suboticka , today 137 bicycles, yesterday 410 bicycles, this year 79155 bicycles</summary>
+<georss:point>45,248060 19,814530</georss:point>
+<counters:location>0051</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>51NSa Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Bul.Evrope-Suboticka </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,248060</counters:geoX>
+<counters:geoY>19,814530</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:50</counters:time>
+<counters:volume_today>137</counters:volume_today>
+<counters:volume_yesterday>410</counters:volume_yesterday>
+<counters:volumethisyear>79155</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Suboticka-Bul.Evrope </title>
+<id>0051-11</id>
+<updated>2026-10-09T10:52:50Z</updated>
+<summary>, Futoški put : Suboticka-Bul.Evrope , today 122 bicycles, yesterday 395 bicycles, this year 70461 bicycles</summary>
+<georss:point>45,248060 19,814530</georss:point>
+<counters:location>0051</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>51NSa Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>11</counters:direction>
+<counters:directionDesc>Suboticka-Bul.Evrope </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,248060</counters:geoX>
+<counters:geoY>19,814530</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:50</counters:time>
+<counters:volume_today>122</counters:volume_today>
+<counters:volume_yesterday>395</counters:volume_yesterday>
+<counters:volumethisyear>70461</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+<entry>
+<title>, Futoški put : Suboticka-Bul.Evrope </title>
+<id>0051-21</id>
+<updated>2026-10-09T10:52:56Z</updated>
+<summary>, Futoški put : Suboticka-Bul.Evrope , today 583 bicycles, yesterday 1560 bicycles, this year 289262 bicycles</summary>
+<georss:point>45,248277 19,814417</georss:point>
+<counters:location>0051</counters:location>
+<counters:locationDesc>Futoški put</counters:locationDesc>
+<counters:locationID>51NSb Futoski put</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>Suboticka-Bul.Evrope </counters:directionDesc>
+<counters:laneDesc></counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,248277</counters:geoX>
+<counters:geoY>19,814417</counters:geoY>
+<counters:date>09/10/2026</counters:date>
+<counters:time>12:52:56</counters:time>
+<counters:volume_today>583</counters:volume_today>
+<counters:volume_yesterday>1560</counters:volume_yesterday>
+<counters:volumethisyear>289262</counters:volumethisyear>
+<counters:state>1</counters:state>
+<counters:stateDesc>Saobraćaj se odvija normalno</counters:stateDesc>
+</entry>
+</feed>

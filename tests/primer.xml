@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:crs="http://www.mikrobit.si/schemas/crs" xmlns:counters="http://www.mikrobit.si/schemas/counters/v1">
+<title>Automatski brojači saobraćaja</title>
+<subtitle>Trenutno stanje saobraćaja</subtitle>
+<link href="http://www.mikrobit.si"/>
+<updated>2026-10-30T07:08:58Z</updated>
+<author>
+<name>Mikrobit senzorika d.o.o.</name>
+<email>info@mikrobit.si</email>
+</author>
+<id>30.10.2026 08:08:58</id>
+<entry>
+<title>, Bulevar Evrope 3 : K. Stankovica - Rumenacka (v)</title>
+<id>0014-21</id>
+<updated>2026-10-30T07:05:00Z</updated>
+<summary>, Bulevar Evrope 3 : K. Stankovica - Rumenacka (v) - Saobraćaj se odvija povećanim intenzitetom (516 broj vozila/h, brzina=54km/h, vreme sleđenja=6.1s, zauzetost=9.6%)</summary>
+<georss:point>45.269733 19.802174</georss:point>
+<counters:location>0014</counters:location>
+<counters:locationDesc>Bulevar Evrope 3</counters:locationDesc>
+<counters:locationID>14NSb Bul Evrope 3</counters:locationID>
+<counters:roadDesc></counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>21</counters:direction>
+<counters:directionDesc>K. Stankovica - Rumenacka</counters:directionDesc>
+<counters:laneDesc>(v)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45.269733</counters:geoX>
+<counters:geoY>19.802174</counters:geoY>
+<counters:vmax>50</counters:vmax>
+<counters:date>30/10/2026</counters:date>
+<counters:time>08:05:00</counters:time>
+<counters:volume>516</counters:volume>
+<counters:speed>54</counters:speed>
+<counters:gap>6.1</counters:gap>
+<counters:occ>96</counters:occ>
+<counters:state>2</counters:state>
+<counters:stateDesc>Saobraćaj se odvija povećanim intenzitetom</counters:stateDesc>
+</entry>
+<entry>
+<title>, Bate Brkića : Bul.J.Ducica-Futoski put (p)</title>
+<id>0040-12</id>
+<updated>2026-10-30T07:00:00Z</updated>
+<summary>, Bate Brkića : Bul.J.Ducica-Futoski put (p) - Saobraćaj se odvija povećanim intenzitetom (476 broj vozila/h, brzina=0km/h, vreme sleđenja=5.1s, zauzetost=32.3%)</summary>
+<georss:point>45,25 19,80</georss:point>
+<counters:location>0040</counters:location>
+<counters:locationDesc>Bate Brkića</counters:locationDesc>
+<counters:locationID>40NSa Bate Brkica</counters:locationID>
+<counters:roadDesc>IIA 100</counters:roadDesc>
+<counters:section></counters:section>
+<counters:point></counters:point>
+<counters:direction>12</counters:direction>
+<counters:directionDesc>Bul.J.Ducica-Futoski put</counters:directionDesc>
+<counters:laneDesc>(p)</counters:laneDesc>
+<counters:region>Novi Sad</counters:region>
+<counters:geoX>45,25</counters:geoX>
+<counters:geoY>19,80</counters:geoY>
+<counters:vmax>60</counters:vmax>
+<counters:date>30/10/2026</counters:date>
+<counters:time>08:00:00</counters:time>
+<counters:volume>476</counters:volume>
+<counters:speed>0</counters:speed>
+<counters:gap>5.1</counters:gap>
+<counters:occ>323</counters:occ>
+<counters:state>2</counters:state>
+<counters:stateDesc>Saobraćaj se odvija povećanim intenzitetom</counters:stateDesc>
+</entry>
+</feed>
