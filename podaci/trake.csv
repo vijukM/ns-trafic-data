@@ -1,0 +1,173 @@
+id,location,locationDesc,locationID,roadDesc,direction,directionDesc,traka,lat,lon,vmax,prvi_put_utc
+0001-11,0001,Vojvode Stepe,01NSaVojvode Stepe,,11,S. Jovanovica - Rumenacka,v,45.259436,19.806639,50,2026-10-30T08:52:36Z
+0001-12,0001,Vojvode Stepe,01NSaVojvode Stepe,,12,S. Jovanovica - Rumenacka,p,45.259436,19.806639,50,2026-10-30T08:52:36Z
+0001-21,0001,Vojvode Stepe,01NSbVojvode Stepe,,21,Rumenacka - S. Jovanovica,v,45.25951,19.80659,50,2026-10-30T08:52:36Z
+0001-22,0001,Vojvode Stepe,01NSbVojvode Stepe,,22,Rumenacka - S. Jovanovica,p,45.25951,19.80659,50,2026-10-30T08:52:36Z
+0002-11,0002,Partizanska,02NSaPartizanska M-7,IB-12,11,Temerinska - Kisačka,v,45.269595,19.835121,50,2026-10-30T08:52:36Z
+0002-12,0002,Partizanska,02NSaPartizanska M-7,IB-12,12,Temerinska - Kisačka,p,45.269595,19.835121,50,2026-10-30T08:52:36Z
+0002-21,0002,Partizanska,02NSbPartizanska M-7,IB-12,21,Kisačka - Temerinska,v,45.269536,19.835135,50,2026-10-30T08:52:36Z
+0002-22,0002,Partizanska,02NSbPartizanska M-7,IB-12,22,Kisačka - Temerinska,p,45.269536,19.835135,50,2026-10-30T08:52:36Z
+0003-11,0003,Sancevi,03NS R Sancevi R-120,IIA 102,11,Novi Sad - Temerin,,45.318827,19.834347,50,2026-10-30T08:52:36Z
+0003-21,0003,Sancevi,03NS R Sancevi R-120,IIA 102,21,Temerin - Novi Sad,,45.318827,19.834347,50,2026-10-30T08:52:36Z
+0004-11,0004,Klisa,04NS Klisa M-22-1,IIA 100,11,Sirig - Novi Sad,,45.305863,19.825713,50,2026-10-30T08:52:36Z
+0004-21,0004,Klisa,04NS Klisa M-22-1,IIA 100,21,Novi Sad - Sirig,,45.305863,19.825713,50,2026-10-30T08:52:36Z
+0005-11,0005,Sajlovo,05NS Sajlovo R-102,IIA 111,11,Novi Sad - Rumenka,,45.281878,19.776904,50,2026-10-30T08:52:36Z
+0005-21,0005,Sajlovo,05NS Sajlovo R-102,IIA 111,21,Rumenka - Novi Sad,,45.281878,19.776904,50,2026-10-30T08:52:36Z
+0006-11,0006,Veternik,06NSaVeternik M-7,IB-12,11,Novi Sad - Futog,v,45.244235,19.777326,50,2026-10-30T08:52:36Z
+0006-12,0006,Veternik,06NSaVeternik M-7,IB-12,12,Novi Sad - Futog,p,45.244235,19.777326,50,2026-10-30T08:52:36Z
+0006-21,0006,Veternik,06NSbVeternik M-7,IB-12,21,Futog - Novi Sad,v,45.244125,19.77725,50,2026-10-30T08:52:36Z
+0006-22,0006,Veternik,06NSbVeternik M-7,IB-12,22,Futog - Novi Sad,p,45.244125,19.77725,50,2026-10-30T08:52:36Z
+0007-11,0007,Tunel,07NSaTunel,,11,Novi Sad - Irig,v,45.228332,19.860822,50,2026-10-30T08:52:36Z
+0007-12,0007,Tunel,07NSaTunel,,12,Novi Sad - Irig,p,45.228332,19.860822,50,2026-10-30T08:52:36Z
+0007-21,0007,Tunel,07NSbTunel,,21,Irig - Novi Sad,v,45.22846,19.860873,50,2026-10-30T08:52:36Z
+0007-22,0007,Tunel,07NSbTunel,,22,Irig - Novi Sad,p,45.22846,19.860873,50,2026-10-30T08:52:36Z
+0008-11,0008,Varadinska duga,08NS Varadinska duga,,11,Petrovaradin - Novi Sad,,45.254478,19.855042,50,2026-10-30T08:52:36Z
+0008-21,0008,Varadinska duga,08NS Varadinska duga,,21,Novi Sad - Petrovaradin,,45.254478,19.855042,50,2026-10-30T08:52:36Z
+0009-11,0009,Zezeljev most,09NS Zezeljev most,,11,Petrovaradin - Novi Sad,,45.2605322,19.8628102,50,2026-10-30T08:52:36Z
+0009-21,0009,Zezeljev most,09NS Zezeljev most,,21,Novi Sad - Petrovaradin,,45.2605322,19.8628102,50,2026-10-30T08:52:36Z
+0010-11,0010,Tekije,10NS Tekije M-22-1,IIA 100,11,Sremski Karlovci - Petrovaradin,,45.229549,19.89532,50,2026-10-30T08:52:36Z
+0010-21,0010,Tekije,10NS Tekije M-22-1,IIA 100,21,Petrovaradin - Sremski Karlovci,,45.229549,19.89532,50,2026-10-30T08:52:36Z
+0011-11,0011,Alibegovac,11NS Alibegovac M-21,IB 21,11,Irig - Petrovaradin,,45.225687,19.878489,50,2026-10-30T08:52:36Z
+0011-21,0011,Alibegovac,11NS Alibegovac M-21,IB 21,21,Petrovaradin - Irig,,45.225687,19.878489,50,2026-10-30T08:52:36Z
+0012-11,0012,Paragovo,12NS Paragovo M-21,IB 21,11,Sremska Kamenica - Irig,,45.187717,19.840307,50,2026-10-30T08:52:36Z
+0012-21,0012,Paragovo,12NS Paragovo M-21,IB 21,21,Irig - Sremska Kamenica,,45.187717,19.840307,50,2026-10-30T08:52:36Z
+0013-11,0013,Bocke,13NS Bocke R-107,IIA-119,11,Sr. Kamenica - Beocin,,45.221182,19.83233,50,2026-10-30T08:52:36Z
+0013-21,0013,Bocke,13NS Bocke R-107,IIA-119,21,Beocin - Sr. Kamenica,,45.221182,19.83233,50,2026-10-30T08:52:36Z
+0014-11,0014,Bulevar Evrope 3,14NSa Bul Evrope 3,,11,Rumenacka - K. Stankovica,v,45.269677,19.801998,50,2026-10-30T08:52:36Z
+0014-12,0014,Bulevar Evrope 3,14NSa Bul Evrope 3,,12,Rumenacka - K. Stankovica,p,45.269677,19.801998,50,2026-10-30T08:52:36Z
+0014-21,0014,Bulevar Evrope 3,14NSb Bul Evrope 3,,21,K. Stankovica - Rumenacka,v,45.269733,19.802174,50,2026-10-30T08:52:36Z
+0014-22,0014,Bulevar Evrope 3,14NSb Bul Evrope 3,,22,K. Stankovica - Rumenacka,p,45.269733,19.802174,50,2026-10-30T08:52:36Z
+0015-11,0015,Vojvodjanska,15NSaPS Vojvodjanska,,11,Cara Lazara - M. Gorkog,p,45.246406,19.84017,50,2026-10-30T08:52:36Z
+0015-12,0015,Vojvodjanska,15NSaPS Vojvodjanska,,12,Cara Lazara - M. Gorkog,s,45.246406,19.84017,50,2026-10-30T08:52:36Z
+0015-13,0015,Vojvodjanska,15NSaPS Vojvodjanska,,13,Cara Lazara - M. Gorkog,v,45.246406,19.84017,50,2026-10-30T08:52:36Z
+0015-21,0015,Vojvodjanska,15NSbPS Vojvodjanska,,21,M. Gorkog - Cara Lazara,p,45.246342,19.839971,50,2026-10-30T08:52:36Z
+0015-22,0015,Vojvodjanska,15NSbPS Vojvodjanska,,22,M. Gorkog - Cara Lazara,s,45.246342,19.839971,50,2026-10-30T08:52:36Z
+0015-23,0015,Vojvodjanska,15NSbPS Vojvodjanska,,23,M. Gorkog - Cara Lazara,v,45.246342,19.839971,50,2026-10-30T08:52:36Z
+0016-11,0016,Somborski bulevar,16NSaSomborski bul,,11,Vrsacka - Bul Evrope,v,45.240029,19.81736,50,2026-10-30T08:52:36Z
+0016-12,0016,Somborski bulevar,16NSaSomborski bul,,12,Vrsacka - Bul Evrope,p,45.240029,19.81736,50,2026-10-30T08:52:36Z
+0016-21,0016,Somborski bulevar,16NSbSomborski bul,,21,Bul Evrope - Vrsacka,v,45.240192,19.817401,50,2026-10-30T08:52:36Z
+0016-22,0016,Somborski bulevar,16NSbSomborski bul,,22,Bul Evrope - Vrsacka,p,45.240192,19.817401,50,2026-10-30T08:52:36Z
+0017-11,0017,Kisacka,17NS Kisacka,,11,Bul. kralja Petra I - Bul. Jase,,45.2645,19.837248,50,2026-10-30T08:52:36Z
+0017-21,0017,Kisacka,17NS Kisacka,,21,Bul. Jase Tomica - Bul. kralja P,,45.2645,19.837248,50,2026-10-30T08:52:36Z
+0018-11,0018,Sajkaska,18NSaSajkaska,,11,Klisa - Partizanska,v,45.272932,19.841012,50,2026-10-30T08:52:36Z
+0018-12,0018,Sajkaska,18NSaSajkaska,,12,Klisa - Partizanska,p,45.272932,19.841012,50,2026-10-30T08:52:36Z
+0018-21,0018,Sajkaska,18NSbSajkaska,,21,Partizanska - Klisa,v,45.27294,19.84121,50,2026-10-30T08:52:36Z
+0018-22,0018,Sajkaska,18NSbSajkaska,,22,Partizanska - Klisa,p,45.27294,19.84121,50,2026-10-30T08:52:36Z
+0019-11,0019,Klisanski most,19NS Klisanski most,,11,Primorska - Centar,,45.281266,19.827627,50,2026-10-30T08:52:36Z
+0019-21,0019,Klisanski most,19NS Klisanski most,,21,Centar - Primorska,,45.281266,19.827627,50,2026-10-30T08:52:36Z
+0020-11,0020,S Jovanovica,20NSa S.Jovanovica,,11,V. Stepe-Futoski put,v,45.251269,19.805448,50,2026-10-30T08:52:36Z
+0020-12,0020,S Jovanovica,20NSa S.Jovanovica,,12,V. Stepe-Futoski put,p,45.251269,19.805448,50,2026-10-30T08:52:36Z
+0020-21,0020,S Jovanovica,20NSb S. Jovanovica,,21,Futoski put-V. Stepe,v,45.251312,19.805602,50,2026-10-30T08:52:36Z
+0020-22,0020,S Jovanovica,20NSb S. Jovanovica,,22,Futoski put-V. Stepe,p,45.251312,19.805602,50,2026-10-30T08:52:36Z
+0021-11,0021,Bulevar Evrope,21NSa Bulevar Evrope,,11,E-75 - Rumenački put,v,45.276353,19.801184,50,2026-10-30T08:52:36Z
+0021-12,0021,Bulevar Evrope,21NSa Bulevar Evrope,,12,E-75 - Rumenački put,p,45.276353,19.801184,50,2026-10-30T08:52:36Z
+0021-21,0021,Bulevar Evrope,21NSb Bulevar Evrope,,21,Rumenacki put - E-75,v,45.27632,19.801426,50,2026-10-30T08:52:36Z
+0021-22,0021,Bulevar Evrope,21NSb Bulevar Evrope,,22,Rumenacki put - E-75,p,45.27632,19.801426,50,2026-10-30T08:52:36Z
+0022-11,0022,Bul. kralja Petra I,22NSa Bul. kralja Petra I,,11,Kraljevica Marka-Kisacka,v,45.261863,19.836936,50,2026-10-30T08:52:36Z
+0022-12,0022,Bul. kralja Petra I,22NSa Bul. kralja Petra I,,12,Kraljevica Marka-Kisacka,p,45.261863,19.836936,50,2026-10-30T08:52:36Z
+0022-21,0022,Bul. kralja Petra I,22NSb Bul. kralja Petra I,,21,Kisacka-Kraljevica Marka,v,45.261999,19.836865,50,2026-10-30T08:52:36Z
+0022-22,0022,Bul. kralja Petra I,22NSb Bul. kralja Petra I,,22,Kisacka-Kraljevica Marka,p,45.261999,19.836865,50,2026-10-30T08:52:36Z
+0023-11,0023,Bul. cara Lazara,23NSa Bul. cara Lazara,,11,Cara Dusana-Balzakova,v,45.240334,19.827473,50,2026-10-30T08:52:36Z
+0023-12,0023,Bul. cara Lazara,23NSa Bul. cara Lazara,,12,Cara Dusana-Balzakova,s,45.240334,19.827473,50,2026-10-30T08:52:36Z
+0023-13,0023,Bul. cara Lazara,23NSa Bul. cara Lazara,,13,Cara Dusana-Balzakova,p,45.240334,19.827473,50,2026-10-30T08:52:36Z
+0023-21,0023,Bul. cara Lazara,23NSb Bul. cara Lazara,,21,Balzakova-Cara Dusana,v,45.240504,19.827387,50,2026-10-30T08:52:36Z
+0023-22,0023,Bul. cara Lazara,23NSb Bul. cara Lazara,,22,Balzakova-Cara Dusana,s,45.240504,19.827387,50,2026-10-30T08:52:36Z
+0023-23,0023,Bul. cara Lazara,23NSb Bul. cara Lazara,,23,Balzakova-Cara Dušana,p,45.240504,19.827387,50,2026-10-30T08:52:36Z
+0024-11,0024,Cara Dušana,24NS Cara Dusana,,11,Futoska-Bul. cara Lazara,v,45.245737,19.825111,50,2026-10-30T08:52:36Z
+0024-12,0024,Cara Dušana,24NS Cara Dusana,,12,Futoska-Bul. cara Lazara,p,45.245737,19.825111,50,2026-10-30T08:52:36Z
+0024-21,0024,Cara Dušana,24NS Cara Dusana,,21,Bul. cara Lazara-Futoska,v,45.245738,19.825148,50,2026-10-30T08:52:36Z
+0024-22,0024,Cara Dušana,24NS Cara Dusana,,22,Bul. cara Lazara-Futoska,p,45.245738,19.825148,50,2026-10-30T08:52:36Z
+0025-11,0025,Kej žrtava racije,25NSb Kej zrtava racije,,11,Bul. M. Pupina - M. Gorkog,v,45.252942,19.855314,50,2026-10-30T08:52:36Z
+0025-12,0025,Kej žrtava racije,25NSb Kej zrtava racije,,12,Bul. M. Pupina - M. Gorkog,p,45.252942,19.855314,50,2026-10-30T08:52:36Z
+0025-21,0025,Kej žrtava racije,25NSb Kej zrtava racije,,21,M. Gorkog-Bul. M. Pupina,v,45.25295,19.855469,50,2026-10-30T08:52:36Z
+0025-22,0025,Kej žrtava racije,25NSb Kej zrtava racije,,22,M. Gorkog-Bul. M. Pupina,p,45.25295,19.855469,50,2026-10-30T08:52:36Z
+0027-11,0027,Bul. Evrope (K. Racina),27NSa Bul. Evrope (K.Racina),,11,K. Stankovica - H. Ruvimova,v,45.257737,19.810128,50,2026-10-30T08:52:36Z
+0027-12,0027,Bul. Evrope (K. Racina),27NSa Bul. Evrope (K.Racina),,12,K. Stankovica - H. Ruvimova,s,45.257737,19.810128,50,2026-10-30T08:52:36Z
+0027-13,0027,Bul. Evrope (K. Racina),27NSa Bul. Evrope (K.Racina),,13,K. Stankovica - H. Ruvimova,p,45.257737,19.810128,50,2026-10-30T08:52:36Z
+0027-21,0027,Bul. Evrope (K. Racina),27NSb Bul. Evrope (K.Racina),,21,H. Ruvimova - K. Stankovica,v,45.257848,19.810356,50,2026-10-30T08:52:36Z
+0027-22,0027,Bul. Evrope (K. Racina),27NSb Bul. Evrope (K.Racina),,22,H. Ruvimova - K. Stankovica,s,45.257848,19.810356,50,2026-10-30T08:52:36Z
+0027-23,0027,Bul. Evrope (K. Racina),27NSb Bul. Evrope (K.Racina),,23,H. Ruvimova - K. Stankovica,p,45.257848,19.810356,50,2026-10-30T08:52:36Z
+0029-11,0029,Rumenacka,29NSa Rumenacka,,11,J. Tomica - Kralja Petra I,v,45.260079,19.82157,50,2026-10-30T08:52:36Z
+0029-12,0029,Rumenacka,29NSa Rumenacka,,12,J. Tomica - Kralja Petra I,p,45.260079,19.82157,50,2026-10-30T08:52:36Z
+0029-21,0029,Rumenacka,29NSb Rumenacka,,21,Kralja Petra I - J. Tomica,v,45.260144,19.821691,50,2026-10-30T08:52:36Z
+0029-22,0029,Rumenacka,29NSb Rumenacka,,22,Kralja Petra I - J. Tomica,p,45.260144,19.821691,50,2026-10-30T08:52:36Z
+0030-11,0030,Bul. cara Lazara,30NSa Bul. cara Lazara,,11,Bul. Oslobodj.-Fruskogorska,v,45.244222,19.843238,50,2026-10-30T08:52:36Z
+0030-12,0030,Bul. cara Lazara,30NSa Bul. cara Lazara,,12,Bul. Oslobodj.-Fruskogorska,s,45.244222,19.843238,50,2026-10-30T08:52:36Z
+0030-13,0030,Bul. cara Lazara,30NSa Bul. cara Lazara,,13,Bul. Oslobodj.-Fruskogorska,p,45.244222,19.843238,50,2026-10-30T08:52:36Z
+0030-21,0030,Bul. cara Lazara,30NSb Bul. cara Lazara,,21,Fruskogorska-Bul. Oslobodj.,v,45.244354,19.843192,50,2026-10-30T08:52:36Z
+0030-22,0030,Bul. cara Lazara,30NSb Bul. cara Lazara,,22,Fruskogorska-Bul. Oslobodj.,s,45.244354,19.843192,50,2026-10-30T08:52:36Z
+0030-23,0030,Bul. cara Lazara,30NSb Bul. cara Lazara,,23,Fruskogorska-Bul. Oslobodj.,p,45.244354,19.843192,50,2026-10-30T08:52:36Z
+0031-11,0031,Kralja Petra 1-Adamova,31NSa Kralja Petra I -P. Adamova,,11,Rumenacka - Bul. Oslobodjenja,v,45.259402,19.82706,50,2026-10-30T08:52:36Z
+0031-12,0031,Kralja Petra 1-Adamova,31NSa Kralja Petra I -P. Adamova,,12,Rumenacka - Bul. Oslobodjenja,p,45.259402,19.82706,50,2026-10-30T08:52:36Z
+0031-21,0031,Kralja Petra 1-Adamova,31NSb Kralja Petra I -P. Adamova,,21,Bul. Oslobodjenja - Rumenacka,v,45.259513,19.827035,50,2026-10-30T08:52:36Z
+0031-22,0031,Kralja Petra 1-Adamova,31NSb Kralja Petra I -P. Adamova,,22,Bul. Oslobodjenja - Rumenacka,p,45.259513,19.827035,50,2026-10-30T08:52:36Z
+0032-11,0032,Bul. Evrope (T.Pavlovića),32NSa Bul. Evrope (T.Pavlovica),,11,C. Lazara - Futoska,v,45.24408,19.819744,50,2026-10-30T08:52:36Z
+0032-12,0032,Bul. Evrope (T.Pavlovića),32NSa Bul. Evrope (T.Pavlovica),,12,C. Lazara - Futoska,s,45.24408,19.819744,50,2026-10-30T08:52:36Z
+0032-13,0032,Bul. Evrope (T.Pavlovića),32NSa Bul. Evrope (T.Pavlovica),,13,C. Lazara - Futoska,p,45.24408,19.819744,50,2026-10-30T08:52:36Z
+0032-21,0032,Bul. Evrope (T.Pavlovića),32NSb Bul. Evrope (T.Pavlovica),,21,Futoska - C. Lazara,v,45.244006,19.81958,50,2026-10-30T08:52:36Z
+0032-22,0032,Bul. Evrope (T.Pavlovića),32NSb Bul. Evrope (T.Pavlovica),,22,Futoska - C. Lazara,s,45.244006,19.81958,50,2026-10-30T08:52:36Z
+0032-23,0032,Bul. Evrope (T.Pavlovića),32NSb Bul. Evrope (T.Pavlovica),,23,Futoska - C. Lazara,p,45.244006,19.81958,50,2026-10-30T08:52:36Z
+0033-11,0033,Novosadskog sajma,33NS Novosadskog sajma,,11,Micurinova-Bul. oslobodjenja,v,45.254647,19.829834,50,2026-10-30T08:52:36Z
+0033-12,0033,Novosadskog sajma,33NS Novosadskog sajma,,12,Micurinova-Bul. oslobodjenja,p,45.254647,19.829834,50,2026-10-30T08:52:36Z
+0033-21,0033,Novosadskog sajma,33NS Novosadskog sajma,,21,Bul. oslobodjenja-Micurinova,v,45.254647,19.829834,50,2026-10-30T08:52:36Z
+0033-22,0033,Novosadskog sajma,33NS Novosadskog sajma,,22,Bul. oslobodjenja-Micurinova,p,45.254647,19.829834,50,2026-10-30T08:52:36Z
+0034-11,0034,Futoška (N. Tesle),34NSa Futoska (N. Tesle),,11,C. Dušana - Bul. Oslobodjenja,v,45.24906,19.82836,50,2026-10-30T08:52:36Z
+0034-12,0034,Futoška (N. Tesle),34NSa Futoska (N. Tesle),,12,C. Dušana - Bul. Oslobodjenja,s,45.24906,19.82836,50,2026-10-30T08:52:36Z
+0034-13,0034,Futoška (N. Tesle),34NSa Futoska (N. Tesle),,13,C. Dušana - Bul. Oslobodjenja,p,45.24906,19.82836,50,2026-10-30T08:52:36Z
+0034-21,0034,Futoška (N. Tesle),34NSb Futoska (N. Tesle),,21,Bul. Oslobodjenja - C. Dušana,v,45.24918,19.82866,50,2026-10-30T08:52:36Z
+0034-22,0034,Futoška (N. Tesle),34NSb Futoska (N. Tesle),,22,Bul. Oslobodjenja - C. Dušana,s,45.24918,19.82866,50,2026-10-30T08:52:36Z
+0034-23,0034,Futoška (N. Tesle),34NSb Futoska (N. Tesle),,23,Bul. Oslobodjenja - C. Dušana,p,45.24918,19.82866,50,2026-10-30T08:52:36Z
+0035-11,0035,Narodnog fronta,35NS Narodnog fronta,,11,Ive Andrica - Bul. oslobodj. (v),,45.239299,19.834677,50,2026-10-30T08:52:36Z
+0035-12,0035,Narodnog fronta,35NS Narodnog fronta,,12,Ive Andrica - Bul. oslobodj. (p),,45.239299,19.834677,50,2026-10-30T08:52:36Z
+0035-21,0035,Narodnog fronta,35NS Narodnog fronta,,21,Bul. oslobodj. - Ive Andrica (v),,45.239405,19.834612,50,2026-10-30T08:52:36Z
+0035-22,0035,Narodnog fronta,35NS Narodnog fronta,,22,Bul. oslobodj. - Ive Andrica (p),,45.239405,19.834612,50,2026-10-30T08:52:36Z
+0036-11,0036,Jevrejska,36NSa Jevrejska,,11,Futoska - Bul. M. Pupina,v,45.25257,19.83867,50,2026-10-30T08:52:36Z
+0036-12,0036,Jevrejska,36NSa Jevrejska,,12,Futoska - Bul. M. Pupina,s,45.25257,19.83867,50,2026-10-30T08:52:36Z
+0036-13,0036,Jevrejska,36NSa Jevrejska,,13,Futoska - Bul. M. Pupina,p,45.25257,19.83867,50,2026-10-30T08:52:36Z
+0036-21,0036,Jevrejska,36NSb Jevrejska,,21,Bul. M. Pupina - Futoska,v,45.25269,19.83857,50,2026-10-30T08:52:36Z
+0036-22,0036,Jevrejska,36NSb Jevrejska,,22,Bul. M. Pupina - Futoska,s,45.25269,19.83857,50,2026-10-30T08:52:36Z
+0036-23,0036,Jevrejska,36NSb Jevrejska,,23,Bul. M. Pupina - Futoska,p,45.25269,19.83857,50,2026-10-30T08:52:36Z
+0037-11,0037,Bul.oslobodjenja (N.fronta),37NSa Bul.oslobodjenja(N.fronta),,11,Most slobode - N. fronta,v,45.240825,19.843224,50,2026-10-30T08:52:36Z
+0037-12,0037,Bul.oslobodjenja (N.fronta),37NSa Bul.oslobodjenja(N.fronta),,12,Most slobode - N. fronta,s,45.240825,19.843224,50,2026-10-30T08:52:36Z
+0037-13,0037,Bul.oslobodjenja (N.fronta),37NSa Bul.oslobodjenja(N.fronta),,13,Most slobode - N. fronta,p,45.240825,19.843224,50,2026-10-30T08:52:36Z
+0037-21,0037,Bul.oslobodjenja (N.fronta),37NSb Bul.oslobodjenja(N.fronta),,21,N. fronta - Most slobode,v,45.240803,19.843061,50,2026-10-30T08:52:36Z
+0037-22,0037,Bul.oslobodjenja (N.fronta),37NSb Bul.oslobodjenja(N.fronta),,22,N. fronta - Most slobode,s,45.240803,19.843061,50,2026-10-30T08:52:36Z
+0037-23,0037,Bul.oslobodjenja (N.fronta),37NSb Bul.oslobodjenja(N.fronta),,23,N. fronta - Most slobode,p,45.240803,19.843061,50,2026-10-30T08:52:36Z
+0038-11,0038,Hadži Ruvimova,38NSa Hadzi Ruvimova,,11,B. Evrope - Rumenacka,v,45.258039,19.818758,50,2026-10-30T08:52:36Z
+0038-12,0038,Hadži Ruvimova,38NSa Hadzi Ruvimova,,12,B. Evrope - Rumenacka,p,45.258039,19.818758,50,2026-10-30T08:52:36Z
+0038-21,0038,Hadži Ruvimova,38NSb Hadzi Ruvimova,,21,Rumenacka - B. Evrope,v,45.258395,19.819157,50,2026-10-30T08:52:36Z
+0038-22,0038,Hadži Ruvimova,38NSb Hadzi Ruvimova,,22,Rumenacka - B. Evrope,p,45.258395,19.819157,50,2026-10-30T08:52:36Z
+0039-11,0039,Bul. J. Tomića,39NSa Bul. J. Tomica,,11,Rumenacka - B. oslobodjenja,v,45.263871,19.821154,50,2026-10-30T08:52:36Z
+0039-12,0039,Bul. J. Tomića,39NSa Bul. J. Tomica,,12,Rumenacka - B. oslobodjenja,p,45.263871,19.821154,50,2026-10-30T08:52:36Z
+0039-21,0039,Bul. J. Tomića,39NSb Bul. J. Tomica,,21,B. oslobodjenja - Rumenacka,v,45.26411,19.821189,50,2026-10-30T08:52:36Z
+0039-22,0039,Bul. J. Tomića,39NSb Bul. J. Tomica,,22,B. oslobodjenja - Rumenacka,p,45.26411,19.821189,50,2026-10-30T08:52:36Z
+0042-11,0042,Raše Radujkova,42NSa Radomira Rase Radujkova,,11,Bul S. Jovanovica - Bul Evrope,v,45.253839,19.80622,50,2026-10-30T08:52:36Z
+0042-12,0042,Raše Radujkova,42NSa Radomira Rase Radujkova,,12,Bul S. Jovanovica - Bul Evrope,p,45.253839,19.80622,50,2026-10-30T08:52:36Z
+0042-21,0042,Raše Radujkova,42NSb Radomira Rase Radujkova,,21,Bul Evrope - Bul S. Jovanovica,v,45.253902,19.806165,50,2026-10-30T08:52:36Z
+0042-22,0042,Raše Radujkova,42NSb Radomira Rase Radujkova,,22,Bul Evrope - Bul S. Jovanovica,p,45.253902,19.806165,50,2026-10-30T08:52:36Z
+0043-11,0043,Kornelija Stankovića,43NSa K.Stankovica,,11,Bul.Evrope-Rumenacka,v,45.262419,19.814289,50,2026-10-30T08:52:36Z
+0043-12,0043,Kornelija Stankovića,43NSa K.Stankovica,,12,Bul.Evrope-Rumenacka,p,45.262419,19.814289,50,2026-10-30T08:52:36Z
+0043-21,0043,Kornelija Stankovića,43NSb K.Stankovica,,21,Rumenacka-Bul.Evrope,v,45.262573,19.814263,50,2026-10-30T08:52:36Z
+0043-22,0043,Kornelija Stankovića,43NSb K.Stankovica,,22,Rumenacka-Bul.Evrope,p,45.262573,19.814263,50,2026-10-30T08:52:36Z
+0044-11,0044,Bul. Evrope (B.Bajića),44NSa Bul.Evrope(B.Bajica),,11,H.Ruvimova-Futoska,v,45.253448,19.813023,60,2026-10-30T08:52:36Z
+0044-12,0044,Bul. Evrope (B.Bajića),44NSa Bul.Evrope(B.Bajica),,12,H.Ruvimova-Futoska,s,45.253448,19.813023,60,2026-10-30T08:52:36Z
+0044-13,0044,Bul. Evrope (B.Bajića),44NSa Bul.Evrope(B.Bajica),,13,H.Ruvimova-Futoska,p,45.253448,19.813023,60,2026-10-30T08:52:36Z
+0044-21,0044,Bul. Evrope (B.Bajića),44NSb Bul.Evrope(B.Bajica),,21,Futoska-H.Ruvimova,v,45.253588,19.81339,60,2026-10-30T08:52:36Z
+0044-22,0044,Bul. Evrope (B.Bajića),44NSb Bul.Evrope(B.Bajica),,22,Futoska-H.Ruvimova,s,45.253588,19.81339,60,2026-10-30T08:52:36Z
+0044-23,0044,Bul. Evrope (B.Bajića),44NSb Bul.Evrope(B.Bajica),,23,Futoska-H.Ruvimova,p,45.253588,19.81339,60,2026-10-30T08:52:36Z
+0045-11,0045,Bate Brkića,45NSa Bate Brkica,,11,Bul.J.Ducica-Futoski put,v,45.249447,19.798124,50,2026-10-30T08:52:36Z
+0045-12,0045,Bate Brkića,45NSa Bate Brkica,,12,Bul.J.Ducica-Futoski put,p,45.249447,19.798124,50,2026-10-30T08:52:36Z
+0045-21,0045,Bate Brkića,45NSb Bate Brkica,,21,Futoski put-Bul.J.Ducica,v,45.24953,19.798362,50,2026-10-30T08:52:36Z
+0045-22,0045,Bate Brkića,45NSb Bate Brkica,,22,Futoski put-Bul.J.Ducica,p,45.24953,19.798362,50,2026-10-30T08:52:36Z
+0048-11,0048,Kaćki most,48NSa Kacki most,,11,E-75 -Rumenacki put,v,45.273147,19.848245,80,2026-10-30T08:52:36Z
+0048-12,0048,Kaćki most,48NSa Kacki most,,12,E-75 - Rumenacki put,p,45.273147,19.848245,80,2026-10-30T08:52:36Z
+0048-21,0048,Kaćki most,48NSb Kacki most,,21,Rumenacki put - E-75,v,45.273147,19.848245,80,2026-10-30T08:52:36Z
+0048-22,0048,Kaćki most,48NSb Kacki most,,22,Rumenacki put - E-75,p,45.273147,19.848245,80,2026-10-30T08:52:36Z
+0049-11,0049,Maksima Gorkog,49NSa Maksima Gorkog,,11,Sutjeska-Strazilovska,v,45.24962,19.845863,50,2026-10-30T08:52:36Z
+0049-12,0049,Maksima Gorkog,49NSa Maksima Gorkog,,12,Sutjeska-Strazilovska,p,45.24962,19.845863,50,2026-10-30T08:52:36Z
+0049-21,0049,Maksima Gorkog,49NSb Maksima Gorkog,,21,Strazilovska-Sutjeska,v,45.249741,19.845811,50,2026-10-30T08:52:36Z
+0049-22,0049,Maksima Gorkog,49NSb Maksima Gorkog,,22,Strazilovska-Sutjeska,p,45.249741,19.845811,50,2026-10-30T08:52:36Z
+0050-11,0050,Braće Ribnikar,50NSa Brace Ribnikar,,11,Futoska-M.Dimitrijevica,v,45.248713,19.833487,50,2026-10-30T08:52:36Z
+0050-12,0050,Braće Ribnikar,50NSa Brace Ribnikar,,12,Futoska-M.Dimitrijevica,p,45.248713,19.833487,50,2026-10-30T08:52:36Z
+0050-21,0050,Braće Ribnikar,50NSb Brace Ribnikar,,21,M.Dimitrijevica-Futoska,v,45.248852,19.833603,50,2026-10-30T08:52:36Z
+0050-22,0050,Braće Ribnikar,50NSb Brace Ribnikar,,22,M.Dimitrijevica-Futoska,p,45.248852,19.833603,50,2026-10-30T08:52:36Z
