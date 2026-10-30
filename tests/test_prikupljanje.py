@@ -96,3 +96,14 @@ def test_kraj_sata():
     u = lambda s: datetime.fromisoformat(s).replace(tzinfo=timezone.utc)
     assert sati.kraj_sata(u("2026-10-30T08:00:00")) == u("2026-10-30T08:00:00")
     assert sati.kraj_sata(u("2026-10-30T08:05:00")) == u("2026-10-30T09:00:00")
+
+
+def test_stanje_za_sajt(tmp_path):
+    for t, ishod, novih in [("2026-10-30T08:01:10Z", "procitano", "172"), ("2026-10-30T08:06:10Z", "greska", ""),
+                            ("2026-10-30T08:11:10Z", "procitano", "150"), ("2026-10-30T09:01:10Z", "procitano", "160")]:
+        citaj.upisi_citanje(tmp_path, {"vreme_utc": t, "okidac": "cron-job.org", "izvor": "glavni" if novih else "",
+                                       "feed_updated_utc": "", "traka": "172" if novih else "", "novih_intervala": novih, "ishod": ishod})
+    s = citaj.napravi_stanje(tmp_path, datetime(2026, 10, 30, 9, 5, tzinfo=timezone.utc))
+    assert s["poslednje"]["vreme_utc"] == "2026-10-30T09:01:10Z" and s["poslednja_greska"] == "2026-10-30T08:06:10Z"
+    assert s["sati"] == [{"sat": "2026-10-30T09", "citanja": 2, "greske": 1, "novih": 322},     # 08 UTC = 09 lokalno
+                         {"sat": "2026-10-30T10", "citanja": 1, "greske": 0, "novih": 160}]

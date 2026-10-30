@@ -13,6 +13,7 @@ Izlaz (podaci/):
   trake.csv                       opis traka (naziv, smer, traka p/s/v, koordinate, vmax) — menja se samo kad se nešto promeni
   poslednji.json                  id trake → kraj poslednjeg sačuvanog intervala (UTC)
   citanja.csv                     dnevnik svakog pokretanja (i neuspelog)
+  stanje.json                     kratak pregled za sajt (poslednje čitanje, čitanja po satu za 48 h) — mali, čita ga nasicu.rs
   greske.log                      opis greške
 
 Samo standardna biblioteka Pythona (bez instaliranja paketa u workflow-u).
@@ -195,6 +196,42 @@ def upisi_citanje(koren: Path, red: dict) -> None:
         w.writerow(red)
 
 
+def napravi_stanje(koren: Path, sada_utc: datetime, sati: int = 48) -> dict:
+    """Pregled iz kraja citanja.csv: poslednje čitanje, poslednja greška i čitanja po lokalnom satu (najviše 12 na sat)."""
+    put = koren / "citanja.csv"
+    redovi = []
+    if put.exists():
+        with open(put, encoding="utf-8", newline="") as f:
+            redovi = list(csv.DictReader(f))[-(sati * 15):]          # dovoljno za 48 h i uz dodatna pokretanja
+    od = sada_utc.timestamp() - sati * 3600
+    po_satu = {}
+    for r in redovi:
+        t = datetime.fromisoformat(r["vreme_utc"].replace("Z", "+00:00"))
+        if t.timestamp() < od:
+            continue
+        k = t.astimezone(konfig.TZ).strftime("%Y-%m-%dT%H")
+        s = po_satu.setdefault(k, {"sat": k, "citanja": 0, "greske": 0, "novih": 0})
+        if r["ishod"] == "procitano":
+            s["citanja"] += 1
+            s["novih"] += int(r["novih_intervala"] or 0)
+        else:
+            s["greske"] += 1
+    uspesna = [r for r in redovi if r["ishod"] == "procitano"]
+    neuspesna = [r for r in redovi if r["ishod"] != "procitano"]
+    return {
+        "napravljeno_utc": f"{sada_utc:%Y-%m-%dT%H:%M:%SZ}",
+        "poslednje": ({k: uspesna[-1][k] for k in ("vreme_utc", "okidac", "izvor", "feed_updated_utc", "traka", "novih_intervala")}
+                      if uspesna else None),
+        "poslednja_greska": neuspesna[-1]["vreme_utc"] if neuspesna else None,
+        "sati": sorted(po_satu.values(), key=lambda x: x["sat"]),
+    }
+
+
+def upisi_stanje(koren: Path, sada_utc: datetime) -> None:
+    (koren / "stanje.json").write_text(json.dumps(napravi_stanje(koren, sada_utc), ensure_ascii=False, indent=1) + "\n",
+                                       encoding="utf-8")
+
+
 def okidac() -> str:
     """cron-job.org (workflow_dispatch), rezerva (schedule) ili ručno/lokalno."""
     return {"workflow_dispatch": "cron-job.org", "schedule": "rezerva"}.get(os.environ.get("GITHUB_EVENT_NAME", ""), "rucno")
@@ -222,10 +259,12 @@ def main(argv=None) -> int:
         with open(koren / "greske.log", "a", encoding="utf-8") as f:
             f.write(f"{red['vreme_utc']}\t{poruka}\n")
         upisi_citanje(koren, {**red, "ishod": "greska"})
+        upisi_stanje(koren, sada)
         log.error("čitanje nije uspelo: %s", poruka)
         return 2
     upisi_citanje(koren, {**red, "izvor": izvor, "feed_updated_utc": feed_updated, "traka": n,
                           "novih_intervala": novih, "ishod": "procitano"})
+    upisi_stanje(koren, sada)
     log.info("traka: %d, novih intervala: %d%s", n, novih, f" → {put.relative_to(koren).as_posix()}" if put else "")
     return 0
 

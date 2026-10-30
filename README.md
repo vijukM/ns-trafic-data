@@ -46,6 +46,7 @@ podaci/
   trake.csv                       opis svake trake; menja se samo kad se pojavi nova traka ili promeni opis
   poslednji.json                  id trake → kraj poslednjeg sačuvanog intervala (da se isti interval ne čuva dvaput)
   citanja.csv                     dnevnik SVAKOG pokretanja: vreme, okidač, izvor, traka, novih intervala, ishod
+  stanje.json                     kratak pregled (poslednje čitanje, čitanja po satu za 48 h) — prikazuje ga nasicu.rs
   greske.log                      opis greške kad čitanje ne uspe
 ```
 
