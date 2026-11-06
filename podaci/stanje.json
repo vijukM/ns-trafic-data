@@ -1,5 +1,5 @@
 {
- "napravljeno_utc": "2026-11-06T13:25:25Z",
+ "napravljeno_utc": "2026-11-06T13:30:42Z",
  "poslednje": {
   "vreme_utc": "2026-11-06T13:25:25Z",
   "okidac": "cron-job.org",
@@ -8,7 +8,7 @@
   "traka": "172",
   "novih_intervala": "115"
  },
- "poslednja_greska": null,
+ "poslednja_greska": "2026-11-06T13:30:42Z",
  "sati": [
   {
    "sat": "2026-11-04T14",
@@ -301,7 +301,7 @@
   {
    "sat": "2026-11-06T14",
    "citanja": 6,
-   "greske": 0,
+   "greske": 1,
    "novih": 801
   }
  ]
