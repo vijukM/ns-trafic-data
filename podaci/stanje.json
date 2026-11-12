@@ -1,20 +1,20 @@
 {
- "napravljeno_utc": "2026-11-12T10:50:32Z",
+ "napravljeno_utc": "2026-11-12T10:55:24Z",
  "poslednje": {
-  "vreme_utc": "2026-11-12T10:50:32Z",
+  "vreme_utc": "2026-11-12T10:55:24Z",
   "okidac": "cron-job.org",
   "izvor": "glavni",
-  "feed_updated_utc": "2026-11-12T10:49:33Z",
+  "feed_updated_utc": "2026-11-12T10:54:26Z",
   "traka": "172",
-  "novih_intervala": "164"
+  "novih_intervala": "120"
  },
  "poslednja_greska": null,
  "sati": [
   {
    "sat": "2026-11-10T11",
-   "citanja": 2,
+   "citanja": 1,
    "greske": 0,
-   "novih": 246
+   "novih": 108
   },
   {
    "sat": "2026-11-10T12",
@@ -300,9 +300,9 @@
   },
   {
    "sat": "2026-11-12T11",
-   "citanja": 11,
+   "citanja": 12,
    "greske": 0,
-   "novih": 1332
+   "novih": 1452
   }
  ],
  "propusteno_7d": [
