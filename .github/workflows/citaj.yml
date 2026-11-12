@@ -1,5 +1,5 @@
 # Čitanje drumskog saobraćaja na 5 minuta.
-# Glavni okidač: cron-job.org poziva workflow_dispatch na svakih 5 min (vidi README → „Cron-job.org“).
+# Glavni okidač: cron-job.org poziva workflow_dispatch na svakih 5 min (1-59/5 * * * *); schedule je samo rezerva.
 # Rezerva: GitHub schedule na 30 min (GitHub ga ume zakasniti ili preskočiti) — isti interval se nikad ne čuva dvaput.
 name: citaj
 
