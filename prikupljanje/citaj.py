@@ -13,7 +13,8 @@ Izlaz (podaci/):
   trake.csv                       opis traka (naziv, smer, traka p/s/v, koordinate, vmax) — menja se samo kad se nešto promeni
   poslednji.json                  id trake → kraj poslednjeg sačuvanog intervala (UTC)
   citanja.csv                     dnevnik svakog pokretanja (i neuspelog)
-  stanje.json                     kratak pregled za sajt (poslednje čitanje, čitanja po satu za 48 h) — mali, čita ga nasicu.rs
+  stanje.json                     kratak pregled za sajt (poslednje čitanje, čitanja po satu za 48 h, propušteni intervali
+                                  za 7 dana) — mali, čita ga nasicu.rs; ceo spisak rupa: propusteno.csv (prikupljanje/rupe.py)
   greske.log                      opis greške
 
 Samo standardna biblioteka Pythona (bez instaliranja paketa u workflow-u).
@@ -30,7 +31,7 @@ import sys
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from . import konfig
@@ -216,6 +217,12 @@ def napravi_stanje(koren: Path, sada_utc: datetime, sati: int = 48) -> dict:
             s["novih"] += int(r["novih_intervala"] or 0)
         else:
             s["greske"] += 1
+    from .rupe import nadji
+    try:                                                         # propušteni intervali u poslednjih 7 dana (ceo grad)
+        rupe = nadji(koren, od=sada_utc - timedelta(days=7))
+    except Exception as e:  # noqa: BLE001 — pregled ne sme da obori čitanje
+        log.warning("rupe: %s", e)
+        rupe = []
     uspesna = [r for r in redovi if r["ishod"] == "procitano"]
     neuspesna = [r for r in redovi if r["ishod"] != "procitano"]
     return {
@@ -224,6 +231,7 @@ def napravi_stanje(koren: Path, sada_utc: datetime, sati: int = 48) -> dict:
                       if uspesna else None),
         "poslednja_greska": neuspesna[-1]["vreme_utc"] if neuspesna else None,
         "sati": sorted(po_satu.values(), key=lambda x: x["sat"]),
+        "propusteno_7d": rupe,
     }
 
 

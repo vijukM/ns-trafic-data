@@ -1,0 +1,3 @@
+# dnevnici se samo dopisuju: pri istovremenim pokretanjima zadrži redove oba
+podaci/citanja.csv merge=union
+podaci/greske.log merge=union

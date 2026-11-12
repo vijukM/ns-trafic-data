@@ -34,6 +34,11 @@ jobs:
         continue-on-error: true
         run: python3 -m prikupljanje.sati
 
+      - name: Spisak propuštenih intervala (podaci/propusteno.csv, posle ponoći)
+        continue-on-error: true
+        run: |
+          if [ "$(TZ=Europe/Belgrade date +%H)" = "00" ] || [ ! -f podaci/propusteno.csv ]; then python3 -m prikupljanje.rupe; fi
+
       - name: Commit i push
         if: always()
         run: |
@@ -42,8 +47,11 @@ jobs:
           git add podaci
           if git diff --cached --quiet; then echo "nema promena"; exit 0; fi
           git commit -q -m "podaci: $(TZ=Europe/Belgrade date '+%Y-%m-%d %H:%M')"
+          # dva pokretanja ponekad krenu u isto vreme (npr. posle zastoja GitHub-a): intervali su novi fajlovi, dnevnici
+          # se spajaju (.gitattributes: merge=union), a u stanje.json / poslednji.json pobeđuje ovo (novije) čitanje
           for i in 1 2 3 4; do
-            git pull --rebase -q && git push -q && exit 0
+            git pull --rebase -X theirs -q && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
             sleep $((i * 5))
           done
           exit 1

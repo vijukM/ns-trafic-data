@@ -107,3 +107,23 @@ def test_stanje_za_sajt(tmp_path):
     assert s["poslednje"]["vreme_utc"] == "2026-10-30T09:01:10Z" and s["poslednja_greska"] == "2026-10-30T08:06:10Z"
     assert s["sati"] == [{"sat": "2026-10-30T09", "citanja": 2, "greske": 1, "novih": 322},     # 08 UTC = 09 lokalno
                          {"sat": "2026-10-30T10", "citanja": 1, "greske": 0, "novih": 160}]
+
+
+def test_rupe_i_uzrok(tmp_path):
+    """Propušteni intervali (ceo grad) i uzrok: nije pokrenuto / izvor nije osvežio fajl."""
+    import csv
+    from prikupljanje import rupe
+    d = tmp_path / "intervali" / "2026" / "11" / "11"
+    d.mkdir(parents=True)
+    for hhmm, t in [("2100", "20:00"), ("2105", "20:05"), ("2125", "20:25"), ("2130", "20:30"), ("2140", "20:40")]:
+        (d / f"{hhmm}.csv").write_text(f"interval_utc,id\n2026-11-11T{t}:00Z,0012-11\n", encoding="utf-8")
+    with open(tmp_path / "citanja.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["vreme_utc", "ishod"])
+        for v in ["20:00:50", "20:05:30", "20:25:30", "20:30:30", "20:35:20", "20:40:30"]:
+            w.writerow([f"2026-11-11T{v}Z", "procitano"])
+    r = rupe.nadji(tmp_path)
+    assert [(x["od_lokalno"], x["intervala"], x["uzrok"]) for x in r] == [
+        ("2026-11-11 21:10", 3, "nije_pokrenuto"),          # 20:10–20:20 UTC: nijedno čitanje
+        ("2026-11-11 21:35", 1, "izvor_nije_osvezio"),      # 20:35: čitanje jeste bilo, interval nije objavljen
+    ]
