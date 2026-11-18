@@ -62,12 +62,12 @@ def proveri(data: bytes) -> None:
 
 
 def preuzmi(pokusaji: int = konfig.POKUSAJI, pauza_s: float = konfig.PAUZA_S) -> tuple[bytes, str]:
-    """(sadržaj, „glavni“ ili „rezerva“); krug glavni → rezervni fajl se ponavlja `pokusaji` puta."""
+    """(sadržaj, ime izvora); krug glavni → rezerva → rezerva_en (konfig.IZVORI) se ponavlja `pokusaji` puta."""
     greske = []
     for i in range(pokusaji):
         if i:
             time.sleep(pauza_s)
-        for ime, url in (("glavni", konfig.URL), ("rezerva", konfig.URL_REZERVA)):
+        for ime, url in konfig.IZVORI:
             try:
                 zahtev = urllib.request.Request(url, headers={"User-Agent": konfig.USER_AGENT, "Cache-Control": "no-cache"})
                 with urllib.request.urlopen(zahtev, timeout=konfig.TIMEOUT_S) as r:

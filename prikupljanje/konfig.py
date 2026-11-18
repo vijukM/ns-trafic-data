@@ -6,11 +6,13 @@ from zoneinfo import ZoneInfo
 # Isti sadržaj na dve adrese; rezervna ima decimalni zarez u koordinatama.
 URL = "http://stari.ugzins.rs/SAUS/counters_georss_sr.xml"
 URL_REZERVA = "http://stari.ugzins.rs/SAUS/counters_georss_gps_sr.xml"
+URL_REZERVA_EN = "http://stari.ugzins.rs/SAUS/counters_georss_en.xml"   # isti podaci, engleski opisi stanja
+IZVORI = (("glavni", URL), ("rezerva", URL_REZERVA), ("rezerva_en", URL_REZERVA_EN))
 USER_AGENT = os.environ.get(
     "NS_TRAFIC_USER_AGENT",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
 )
-TIMEOUT_S = 30
+TIMEOUT_S = 20          # 2 kruga × 3 adrese × 20 s + pauza staju u timeout posla (4 min)
 POKUSAJI = 2           # krug (glavni, pa rezervni fajl) se ponavlja toliko puta
 PAUZA_S = 20           # pauza između krugova
 
