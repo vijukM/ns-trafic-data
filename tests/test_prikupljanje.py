@@ -161,3 +161,21 @@ def test_tri_izvora_redom(monkeypatch):
     monkeypatch.setattr(urllib.request, "urlopen", otvori)
     data, ime = citaj.preuzmi(pokusaji=1, pauza_s=0)
     assert ime == "rezerva_en" and pozvani == [konfig.URL, konfig.URL_REZERVA, konfig.URL_REZERVA_EN]
+
+
+def test_kolektor_se_predstavlja(monkeypatch):
+    """User-Agent kaže ko čita i kako da nas kontaktiraju; zahtev ga zaista šalje."""
+    import urllib.request
+    from prikupljanje import citaj, konfig
+    assert konfig.USER_AGENT.startswith("NaSicu/") and "nasicu.rs" in konfig.USER_AGENT and "@" in konfig.USER_AGENT
+    poslato = {}
+
+    def otvori(z, timeout):
+        poslato.update(z.header_items())
+        raise TimeoutError("timed out")
+    monkeypatch.setattr(urllib.request, "urlopen", otvori)
+    try:
+        citaj.preuzmi(pokusaji=1, pauza_s=0)
+    except citaj.Greska:
+        pass
+    assert poslato.get("User-agent") == konfig.USER_AGENT
