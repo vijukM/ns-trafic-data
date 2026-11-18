@@ -56,6 +56,8 @@ jobs:
           done
           exit 1
 
-      - name: Neuspelo čitanje = crveno pokretanje (vidi podaci/greske.log)
+      # kad izvor ne odgovara duže vreme, crveno (i mejl) samo za prvu grešku u nizu i zatim jednom na sat;
+      # sve greške su i dalje u podaci/citanja.csv, greske.log i propusteno.csv
+      - name: Neuspelo čitanje = crveno pokretanje (prvo u nizu, pa jednom na sat)
         if: steps.citanje.outcome == 'failure'
-        run: exit 1
+        run: python3 -m prikupljanje.uzbuna

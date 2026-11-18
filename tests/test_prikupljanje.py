@@ -127,3 +127,37 @@ def test_rupe_i_uzrok(tmp_path):
         ("2026-11-11 21:10", 3, "nije_pokrenuto"),          # 20:10–20:20 UTC: nijedno čitanje
         ("2026-11-11 21:35", 1, "izvor_nije_osvezio"),      # 20:35: čitanje jeste bilo, interval nije objavljen
     ]
+
+
+def test_uzbuna_prva_greska_pa_jednom_na_sat(tmp_path):
+    from prikupljanje import uzbuna
+    p = tmp_path / "citanja.csv"
+    p.write_text("vreme_utc,ishod\n1,procitano\n" + "".join(f"{i},greska\n" for i in range(13)), encoding="utf-8")
+    assert uzbuna.niz_gresaka(tmp_path) == 13
+    assert [n for n in range(1, 30) if uzbuna.uzbuna(n)] == [1, 12, 24]
+    p.write_text("vreme_utc,ishod\n1,greska\n2,procitano\n", encoding="utf-8")
+    assert uzbuna.niz_gresaka(tmp_path) == 0 and not uzbuna.uzbuna(0)
+
+
+def test_tri_izvora_redom(monkeypatch):
+    """Glavni, pa rezerva, pa engleska verzija; prvi ispravan fajl se uzima."""
+    import urllib.request
+    from prikupljanje import citaj, konfig
+    pozvani = []
+
+    class Odg:
+        def __init__(self, d): self.d = d
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def read(self): return self.d
+
+    dobar = b'<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom"><counters:occ>1</counters:occ></feed>'
+
+    def otvori(z, timeout):
+        pozvani.append(z.full_url)
+        if z.full_url == konfig.URL_REZERVA_EN:
+            return Odg(dobar)
+        raise TimeoutError("timed out")
+    monkeypatch.setattr(urllib.request, "urlopen", otvori)
+    data, ime = citaj.preuzmi(pokusaji=1, pauza_s=0)
+    assert ime == "rezerva_en" and pozvani == [konfig.URL, konfig.URL_REZERVA, konfig.URL_REZERVA_EN]
