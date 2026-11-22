@@ -61,7 +61,13 @@ def nadji(koren: Path, od: datetime | None = None, do: datetime | None = None) -
     ima = intervali(koren, od)
     if not ima:
         return []
+    cit = citanja(koren)
     t, kraj = (od or min(ima)), (do or max(ima))
+    if do is None and cit:
+        # izvor ume potpuno da stane (npr. 20. 11. 2026.: isti fajl danima): posle poslednjeg sačuvanog intervala tada
+        # nema ničega, pa se rupa računa do poslednjeg čitanja (interval pre tekućeg, jer izvor kasni par minuta)
+        posl = max(v for v, _ in cit)
+        kraj = max(kraj, posl.replace(second=0, microsecond=0) - timedelta(minutes=posl.minute % 5) - KORAK)
     t = max(t, min(ima))
     t = t.replace(second=0, microsecond=0) - timedelta(minutes=t.minute % 5)
     rupe: list[list[datetime]] = []
@@ -72,7 +78,6 @@ def nadji(koren: Path, od: datetime | None = None, do: datetime | None = None) -
             else:
                 rupe.append([t, t])
         t += KORAK
-    cit = citanja(koren)
     out = []
     for a, b in rupe:
         u_prozoru = [i for v, i in cit if a < v <= b + KORAK]          # čitanja posle kraja intervala

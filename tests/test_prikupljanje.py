@@ -179,3 +179,22 @@ def test_kolektor_se_predstavlja(monkeypatch):
     except citaj.Greska:
         pass
     assert poslato.get("User-agent") == konfig.USER_AGENT
+
+
+def test_rupa_kad_izvor_potpuno_stane(tmp_path):
+    """Izvor vraća isti fajl satima: posle poslednjeg sačuvanog intervala nema ništa, ali čitanja stižu → rupa do
+    poslednjeg čitanja (bez tekućeg intervala), uzrok „izvor nije osvežio“."""
+    import csv
+    from prikupljanje import rupe
+    d = tmp_path / "intervali" / "2026" / "11" / "20"
+    d.mkdir(parents=True)
+    for t in ["16:00", "16:05", "16:10"]:
+        (d / f"{t.replace(':', '')}.csv").write_text(f"interval_utc,id\n2026-11-20T{t}:00Z,0012-11\n", encoding="utf-8")
+    with open(tmp_path / "citanja.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["vreme_utc", "ishod"])
+        for m in range(0, 61, 5):
+            w.writerow([f"2026-11-20T{16 + m // 60:02d}:{m % 60:02d}:40Z", "procitano"])
+    r = rupe.nadji(tmp_path)
+    assert [(x["od_lokalno"], x["do_lokalno"], x["intervala"], x["uzrok"]) for x in r] == [
+        ("2026-11-20 17:15", "2026-11-20 17:55", 9, "izvor_nije_osvezio")]
