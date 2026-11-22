@@ -1,7 +1,7 @@
 {
- "napravljeno_utc": "2026-11-22T10:15:35Z",
+ "napravljeno_utc": "2026-11-22T10:20:28Z",
  "poslednje": {
-  "vreme_utc": "2026-11-22T10:15:35Z",
+  "vreme_utc": "2026-11-22T10:20:28Z",
   "okidac": "cron-job.org",
   "izvor": "glavni",
   "feed_updated_utc": "2026-11-20T16:00:13Z",
@@ -300,7 +300,7 @@
   },
   {
    "sat": "2026-11-22T11",
-   "citanja": 4,
+   "citanja": 5,
    "greske": 0,
    "novih": 0
   }
